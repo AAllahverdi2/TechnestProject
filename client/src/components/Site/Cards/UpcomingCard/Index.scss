@@ -1,0 +1,227 @@
+.upcomingAuctionCard {
+    padding: 10px 10px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    border: 1px solid #35348c;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #101046;
+        transform: translateY(5px);
+    }
+
+    .upcomingAuctionCardLeft {
+        width: 293px;
+        height: 293px;
+        padding: 2px;
+        border: 1px solid #9276d7;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .details2 {
+            width: 40px;
+            height: 40px;
+            background: #4934d3;
+            text-align: center;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 10px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .upcomingAuctionCardRight {
+        width: 60%;
+        padding: 15px;
+
+        h5 {
+            margin: 0 0 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px dashed #4934d3;
+            font-size: 24px;
+            line-height: 31.2px;
+            font-family: "Poppins", sans-serif !important;
+
+            a {
+                color: white;
+
+            }
+        }
+
+        .upcomingCardBottom {
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+
+            h6 {
+                font-size: 18px;
+                color: white;
+                margin-right: 20px;
+                margin-top: -1px;
+                font-family: "Poppins", sans-serif !important;
+
+                margin-bottom: 0;
+            }
+
+            .times {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    color: #fa8fc1;
+                    font-size: 18px;
+
+                    &:not(:last-child) {
+                        margin-right: 10px;
+
+                    }
+                }
+            }
+
+        }
+
+        .upcomingAuctionCardRightMiddle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0;
+
+            .upcomingCardLeft {
+                width: 50%;
+                border-right: 1px dashed #4934d3;
+
+                h6 {
+                    font-size: 18px;
+                    margin-top: -1px;
+                    color: white;
+                    font-family: "Poppins", sans-serif !important;
+                }
+
+                .price2 {
+                    color: #03d6f9;
+                    font-size: 18px;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+
+                }
+            }
+
+            .upcomingCardRight {
+                text-align: right;
+
+                h6 {
+                    font-size: 18px;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+                    color: white;
+                }
+
+                .aucId {
+                    color: #03d6f9;
+                    font-size: 18px;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .upcomingAuctionCardRight {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .upcomingAuctionCard {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .upcomingAuctionCardRight {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .upcomingAuctionCard {
+        margin-bottom: 0px !important;
+        flex-wrap: wrap !important;
+
+        .upcomingAuctionCardLeft {
+            width: 100%;
+        }
+
+        .upcomingAuctionCardRight {
+            width: 100%;
+
+        }
+    }
+
+    .upcomingAuctionCardRightMiddle {
+        .upcomingCardLeft {
+            h6 {
+                font-size: 16px !important;
+            }
+        }
+
+        .upcomingCardRight {
+            h6 {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .upcomingAuctionCardRight {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .upcomingAuctionCard {
+        .upcomingAuctionCardLeft {
+            width: 250px !important;
+            height: 250px !important;
+            margin: 10px auto 0 !important;
+        }
+    }
+
+    .upcomingAuctionCardRight {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+}

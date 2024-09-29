@@ -1,0 +1,33 @@
+.questionsAdmin {
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, sans-serif;
+
+    .questionsAdminInside {
+        background: #000000;
+        padding: 1.875rem 1.75rem;
+        width: 100%;
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .questionsAdminInside {
+        padding: 1.875rem 0.75rem !important;
+
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .questionsAdminInside {
+        padding: 1.875rem 0.5rem !important;
+
+    }
+}

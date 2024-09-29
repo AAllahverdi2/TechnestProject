@@ -1,0 +1,611 @@
+{
+    "header": {},
+    "pages": {
+        "home": {
+            "heroSection": {
+                "h1": "  Exclusive Online Bid for Unbeatable  Deals!",
+                "p": "   Participate in bid and get hottest gadgets on your Ticket Cost.",
+                "btn": "    Signup Now"
+            },
+            "supportSection": {
+                "first": "   24/7 Online Support",
+                "second": "   100% Money Back Guarantee",
+                "third": "   Many Payment Gatways",
+                "fourth": " World Wide Free Shipping"
+            },
+            "workSection": {
+                "top": {
+                    "h2": "  How it works?",
+                    "p": "Follow these simple steps and make profits !"
+                },
+                "first": {
+                    "title": "  Register for free",
+                    "text": "  To start using our auction, you’ll need to register. It’s completely free and requires just a few clicks!"
+                },
+                "second": {
+                    "title": "  Buy or Bid",
+                    "text": "           To start using our auction, you’ll need to register. It’s completely free and requires just a few clicks!"
+                },
+                "third": {
+                    "title": "  Submit a Bid",
+                    "text": "           To start using our auction, you’ll need to register. It’s completely free and requires just a few clicks!"
+                },
+                "fourth": {
+                    "title": " Win",
+                    "text": "           To start using our auction, you’ll need to register. It’s completely free and requires just a few clicks!"
+                }
+            },
+            "latestsAuction": {
+                "h2": " Latest Auction",
+                "p": "                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. ",
+                "a": "View More"
+            },
+            "upcomingAuction": {
+                "h2": " Upcoming Auction",
+                "p": "                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. "
+            },
+            "registerFreeSection": {
+                "h3": " Register For Free & Start Bidding Now!",
+                "btn": " Register"
+            },
+            "topWinnersSection": {
+                "h2": "Top Winners",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ."
+            },
+            "testimonialSection": {
+                "h2": "Testimonial",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ."
+            },
+            "managementSection": {
+                "h2": "Meet The Management Team",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ."
+            },
+            "subscriberSection": {
+                "h4": "   Subscribe to Our Newsletter To Get More Update & Join To Techbid",
+                "input": "Enter Your Email",
+                "button": "Subscribe",
+                "successMessage": "Thank you for subscribing!",
+                "errorMessage1": "Invalid email address",
+                "errorMessage2": "Email already exists. Please use a different email address."
+            }
+        },
+        "aboutUs": {
+            "heroSection": {
+                "h1": "About Us",
+                "li1": "Home",
+                "li2": "About Us"
+            },
+            "aboutUsSection": {
+                "h2": "About Us",
+                "p": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
+                "textBoxs": {
+                    "first": {
+                        "title": "   Fast Support",
+                        "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.  "
+                    },
+                    "second": {
+                        "title": "Happy Customers",
+                        "text": "   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                    },
+                    "third": {
+                        "title": "  24/7 Support",
+                        "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                    }
+                }
+            },
+            "odometerSection": {
+                "first": "Product for sale",
+                "second": "Sellers Active on MarketKit  ",
+                "third": "Buyer active on MarketKit",
+                "fourth": "In Secure bid"
+            }
+        },
+        "product": {
+            "productHeroSection": {
+                "h1": "Auction",
+                "li1": "Home",
+                "li2": "Auction"
+            },
+            "productFilterSection": {
+                "sortText": "Sort By",
+                "selectOption": {
+                    "op1": "All",
+                    "op2": "Electronic",
+                    "op3": "Jewelry",
+                    "op4": "Car",
+                    "op5": "Latest",
+                    "op6": "Oldest",
+                    "op7": "Ending Soon",
+                    "op8": "Ending Later",
+                    "label1": "Product Name",
+                    "label2": "Product Price",
+                    "label3": "Product Type",
+                    "label4": "Product Created Time",
+                    "label5": "Product End Time"
+                },
+                "searchInput": "Item Name..."
+            }
+        },
+        "contactUs": {
+            "contactUsHeroSection": {
+                "h1": "Contact Us",
+                "li1": "Pages",
+                "li2": "Contact Us"
+            },
+            "contactBottomSection": {
+                "contactTop": {
+                    "h2": "Contact Us",
+                    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices diam in nibh mattis, sit amet ultrices nibh commodo."
+                },
+                "contactLeft": {
+                    "h3": "Contact Information",
+                    "p": " Our dedicated team is here to help.",
+                    "h5": "Found us on"
+                },
+                "contactRight": {
+                    "label1": "Name",
+                    "label2": "Email",
+                    "label3": "Leave a message",
+                    "input1": "What’s your name?",
+                    "input2": "What’s your email?",
+                    "input3": "Please type your message here...",
+                    "btn": "Request a quote",
+                    "successMessage": "Your Message is successfully sent !",
+                    "somethingWrongMessage": "Something went wrong,Please try again",
+                    "err1": "Error Message",
+                    "err2": "Error Message",
+                    "err3": "Error Message",
+                    "err4": "Invalid email address"
+                }
+            }
+        },
+        "error404": {
+            "h3": " Sorry, Page Not Found",
+            "p": "  Sorry, but the page you are looking for is not found.",
+            "btn": "Go Back Home"
+        },
+        "faq": {
+            "faqHeroSection": {
+                "h1": "FAQ",
+                "li1": "Home",
+                "li2": "FAQ"
+            },
+            "faqBottomSection": {
+                "h2": " Frequently Asked Questions",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+            }
+        },
+        "dashboard": {
+            "dashboardHeroSection": {
+                "li1": "Home",
+                "li2": "My Account ",
+                "li3": "Dashboard",
+                "li4": "Personal Profile",
+                "li5": "My Bids",
+                "li6": "Winning Bids",
+                "li7": "My Favorites",
+                "li8": "My Orders",
+                "li9": "My Products"
+            },
+            "dashboardLeft": {
+                "btn1": "Logout",
+                "logoutMessage": "Logout successful! See you next time.",
+                "btn2": "Create Blog",
+                "accountDelete": {
+                    "btn": "Delete Account",
+                    "messageTitle": "Delete Account",
+                    "messageText": "Are you sure you want to delete your account? This action is irreversible and will result in the loss of all your data.",
+                    "cancelBtn": "Cancel",
+                    "confirmBtn": "Yes, Delete my account",
+                    "confirm": {
+                        "title": "Account Deleted",
+                        "text": "Your account has been successfully deleted."
+                    }
+                },
+                "list": {
+                    "li1": "Dashboard",
+                    "li2": "Personal Profile",
+                    "li3": "My Products",
+                    "li4": "My Bids",
+                    "li5": "Winning Bids",
+                    "li6": "My Favorites",
+                    "li7": "My Orders"
+                }
+            },
+            "dashboardRight": {
+                "h5": "My Activity",
+                "cards": {
+                    "firstTitle": "Active Bids",
+                    "secondTitle": "Winner",
+                    "thirdTitle": "Favorites"
+                },
+                "basketTable": {
+                    "emptyText": "Your Basket Is Empty",
+                    "th1": "Item",
+                    "th2": "Product Name",
+                    "th3": "Minimum Bid Price",
+                    "th4": "Current Bid",
+                    "th5": "End Time",
+                    "th6": "Delete",
+                    "deleteBtnMessage": {
+                        "errorMessage": "You Don't Have This Item In Your Basket",
+                        "successMessage": "Product Deleted From Your Basket"
+                    },
+                    "checkOutBtn": "Check out"
+                }
+            }
+        },
+        "acceptModal": {
+            "title": "Payment Successful!",
+            "subTitle": "Your order has been successfully placed! 🎉 Thank you for choosing us. We're on it! ",
+            "btn1": "Buy Again",
+            "btn2": "My Orders"
+        },
+        "personalProfile": {
+            "firstBox": {
+                "title": "Personal Details",
+                "span1": "Name",
+                "span2": "Date of Birth",
+                "span3": "Address"
+            },
+            "secondBox": {
+                "title": "Account Settings",
+                "span1": "Language",
+                "span3": "Time Zone",
+                "timeZone1": "(GMT+4) Baku",
+                "timeZone2": " (GMT-08:00) Central America",
+                "timeZone3": "(GMT+3) Russia",
+                "span2": {
+                    "title": "Status",
+                    "text": "Active"
+                }
+            },
+            "thirdBox": {
+                "title": "Email Addresses",
+                "span": "Email"
+            },
+            "fourthBox": {
+                "title": "Phone",
+                "span": "Phone"
+            },
+            "fifthBox": {
+                "title": "Security",
+                "span": "Password"
+            }
+        },
+        "myProducts": {
+            "title": "My Products",
+            "btn1": "Upcoming",
+            "btn2": "Latest"
+        },
+        "myBids": {
+            "title": "My Bids",
+            "btn1": "Upcoming",
+            "btn2": "Latest"
+        },
+        "winningBids": {
+            "title": "Winning Bids",
+            "searchInp": "Item Name...",
+            "sorting": {
+                "title": "Sort By",
+                "selectOption": {
+                    "op1": "All",
+                    "op2": "Electronic",
+                    "op3": "Jewelry",
+                    "op4": "Car",
+                    "op5": "Latest",
+                    "op6": "Oldest",
+                    "label1": "Product Name",
+                    "label2": "Product Price",
+                    "label3": "Product Type",
+                    "label4": "Product Created Time"
+                }
+            }
+        },
+        "myFavorites": {
+            "title": "My Favorites",
+            "searchInp": "Item Name...",
+            "sorting": {
+                "title": "Sort By",
+                "selectOption": {
+                    "op1": "All",
+                    "op2": "Electronic",
+                    "op3": "Jewelry",
+                    "op4": "Car",
+                    "op5": "Latest",
+                    "op6": "Oldest",
+                    "op7": "Ending Soon",
+                    "op8": "Ending Later",
+                    "label1": "Product Name",
+                    "label2": "Product Price",
+                    "label3": "Product Type",
+                    "label4": "Product Created Time",
+                    "label5": "Product End Time"
+                }
+            }
+        },
+        "myOrders": {
+            "title": "My Orders    ",
+            "searchInp": "Item Name...",
+            "sorting": {
+                "title": "Sort By",
+                "selectOption": {
+                    "op1": "All",
+                    "op2": "Pending",
+                    "op3": "Accept",
+                    "op4": "Reject",
+                    "label1": "Title",
+                    "label2": "Total Price",
+                    "label3": "Order Status"
+                }
+            },
+            "table": {
+                "th1": "Full Name",
+                "th2": "Gmail",
+                "th3": "Total Price",
+                "th4": "Total Amount",
+                "th5": "Status",
+                "th6": "Info"
+            }
+        },
+        "blog": {
+            "blogHeroSection": {
+                "title": "Blog",
+                "li1": "Home",
+                "li2": "Blog"
+            },
+            "blogSecondCol": {
+                "emailErr": "Invalid email address",
+                "emailErr2": "Email already exists. Please use a different email address.",
+                "h4": "Subscribe to Our News Letter!",
+                "placeholder": "Your Email Address",
+                "successMessage": "Thank you for subscribing!",
+                "title2": "Featured Posts",
+                "title3": "Follow Us"
+            }
+        },
+        "blogDetail": {
+            "blogDetailHero": {
+                "h1": "Blog Details",
+                "li1": "Home",
+                "li2": "Blog",
+                "li3": "Blog Details"
+            },
+            "commentSection": {
+                "deleteMessage": "🚀 Comment deleted successfully! Goodbye, unnecessary words!",
+                "updateErrorComment": "Oops! Looks like you forgot to share your thoughts. Don't leave me hanging, type something cool! 😎",
+                "updateSuccessComment": "🚀 Comment updated successfully! Your thoughts have been refreshed!",
+                "placeholder": "Write the Updated Content",
+                "btn": "Update Comment",
+                "title": "Leave a comment",
+                "title2": "Comment",
+                "btn2": "Post Comment",
+                "placeholder2": "Write the Comment",
+                "title3": "Comments"
+            }
+        },
+        "winningBidsDetail": {
+            "heroSection": {
+                "h1": "Winning Product Details",
+                "li1": "Dashboard",
+                "li2": "Winning Product Details"
+            },
+            "bottomSection": {
+                "box1": {
+                    "title": "Description",
+                    "text": "Description"
+                },
+                "box2": {
+                    "title": "Delivery Options",
+                    "text": "Shipping",
+                    "table": {
+                        "thead": {
+                            "th1": "Available Delivery Methods",
+                            "th2": "Price"
+                        },
+                        "tbody": {
+                            "th1": "Customer Pick-up (within 8 days)",
+                            "th2": "Standard Shipping (4-7 business days)",
+                            "th3": "Not Applicable",
+                            "th4": "Expedited Shipping (2-4 business days)"
+                        }
+                    },
+                    "note": {
+                        "title": "Notes",
+                        "p": "  Please carefully review our shipping and returns policy before committing to a bid. From time to time, and at its sole discretion, Techbid may change the prevailing fee structure for shipping and handling."
+                    }
+                },
+                "box3": {
+                    "title": "Bid History",
+                    "text": "Bid History",
+                    "table": {
+                        "th1": "Bidder",
+                        "th2": "Date",
+                        "th3": "Time",
+                        "th4": "Unit Price"
+                    }
+                },
+                "box4": {
+                    "title": "Questions",
+                    "text": "       Frequently Asked Questions"
+                }
+            },
+            "middleSection": {
+                "left": {
+                    "h5": "Current Price",
+                    "p1": " Buyer's Premium",
+                    "p2": "Bid Increment (US)",
+                    "placeholder": " 🎉' Congratulations on your victory! 🎊'",
+                    "btn": "Submit A Bid",
+                    "btn2": "Buy Now",
+                    "btn3": "Add To Wishlist",
+                    "text": "Share To"
+                },
+                "right": {
+                    "text1": "Price",
+                    "text2": "Product Details",
+                    "electronicType": {
+                        "span1": "Brand",
+                        "span2": "Series",
+                        "span3": "Type",
+                        "span4": "Electronic",
+                        "span5": "Color",
+                        "span6": "Hard Disk Size",
+                        "span7": "CPU Model",
+                        "span8": "Ram Memory"
+                    },
+                    "carType": {
+                        "span1": "Brand",
+                        "span2": "Model",
+                        "span3": "Type",
+                        "span4": "Car",
+                        "span5": "Color",
+                        "span6": "Fuel",
+                        "span7": "Year",
+                        "span8": "Condition",
+                        "span9": "Engine",
+                        "span10": "Transmission",
+                        "span11": "Mileage",
+                        "span12": "Doors"
+                    },
+                    "jewelryType": {
+                        "span": "Weight",
+                        "span2": "Purity",
+                        "span3": "Type",
+                        "span4": "Jewelry",
+                        "span5": "Gemstone ",
+                        "span6": "Metal Type",
+                        "span7": "Clasp Type",
+                        "span8": "Gemstone Color",
+                        "span9": "Length",
+                        "span10": "Width",
+                        "span11": "Height"
+                    },
+                    "btn": "Submit A Bid",
+                    "text3": "This Auction Ends in",
+                    "text4": "  🎉 'Congratulations on your victory! 🎊'",
+                    "text5": "Watching",
+                    "text6": "Total Bids"
+                }
+            }
+        },
+        "productDetail": {
+            "heroSection": {
+                "h1": "Product Details",
+                "li1": "Home",
+                "li2": "Product Details"
+            },
+            "middleSection": {
+                "left": {
+                    "h5": "Current Price",
+                    "p1": " Buyer's Premium",
+                    "p2": "Bid Increment (US)",
+                    "placeholder": "Enter your bid amount",
+                    "btn": "Submit A Bid",
+                    "btn2": "Buy Now",
+                    "btn3": "Add To Wishlist",
+                    "text": "Share To",
+                    "basketErrorText1": "Product is already in the basket",
+                    "basketErrorText2": "Oops! It seems like you're not logged in. Please log in to access your basket.",
+                    "basketSuccessMessage": "Product added to the basket",
+                    "wishlistErrorMessage1": "Product is already in the wishlist",
+                    "wishlistSuccessMessage": "Product added to the wishlist",
+                    "wishlistErrorMessage2": "Oops! It seems like you're not logged in. Please log in to access your wishlist."
+                },
+                "right": {
+                    "text1": "Price",
+                    "text2": "Product Details",
+                    "electronicType": {
+                        "span1": "Brand",
+                        "span2": "Series",
+                        "span3": "Type",
+                        "span4": "Electronic",
+                        "span5": "Color",
+                        "span6": "Hard Disk Size",
+                        "span7": "CPU Model",
+                        "span8": "Ram Memory"
+                    },
+                    "carType": {
+                        "span1": "Brand",
+                        "span2": "Model",
+                        "span3": "Type",
+                        "span4": "Car",
+                        "span5": "Color",
+                        "span6": "Fuel",
+                        "span7": "Year",
+                        "span8": "Condition",
+                        "span9": "Engine",
+                        "span10": "Transmission",
+                        "span11": "Mileage",
+                        "span12": "Doors"
+                    },
+                    "jewelryType": {
+                        "span": "Weight",
+                        "span2": "Purity",
+                        "span3": "Type",
+                        "span4": "Jewelry",
+                        "span5": "Gemstone ",
+                        "span6": "Metal Type",
+                        "span7": "Clasp Type",
+                        "span8": "Gemstone Color",
+                        "span9": "Length",
+                        "span10": "Width",
+                        "span11": "Height"
+                    },
+                    "btn": "Submit A Bid",
+                    "text3": "This Auction Ends in",
+                    "text4": "  🎉 'Congratulations on your victory! 🎊'",
+                    "text5": "Watching",
+                    "text6": "Total Bids",
+                    "bidAddErrorMessage":"Please log in before attempting to add a bid.",
+                    "bidAddErrorMessage1":"Please log in before attempting to add a bid.",
+                    "bidAddSuccessMessage":"Your Bid has been added",
+                    "bidAddSuccessMessage1":"Your Bid has been added",
+                    "minBidText":"Minimum bid price is $"
+                }
+            },
+            "bottomSection": {
+                "box1": {
+                    "title": "Description",
+                    "text": "Description"
+                },
+                "box2": {
+                    "title": "Delivery Options",
+                    "text": "Shipping",
+                    "table": {
+                        "thead": {
+                            "th1": "Available Delivery Methods",
+                            "th2": "Price"
+                        },
+                        "tbody": {
+                            "th1": "Customer Pick-up (within 8 days)",
+                            "th2": "Standard Shipping (4-7 business days)",
+                            "th3": "Not Applicable",
+                            "th4": "Expedited Shipping (2-4 business days)"
+                        }
+                    },
+                    "note": {
+                        "title": "Notes",
+                        "p": "  Please carefully review our shipping and returns policy before committing to a bid. From time to time, and at its sole discretion, Techbid may change the prevailing fee structure for shipping and handling."
+                    }
+                },
+                "box3": {
+                    "title": "Bid History",
+                    "text": "Bid History",
+                    "table": {
+                        "th1": "Bidder",
+                        "th2": "Date",
+                        "th3": "Time",
+                        "th4": "Unit Price"
+                    },
+                    "emptyText": "No bidders for this product yet."
+                },
+                "box4": {
+                    "title": "Questions",
+                    "text": "       Frequently Asked Questions"
+                }
+            }
+        }
+    },
+    "footer": {}
+}

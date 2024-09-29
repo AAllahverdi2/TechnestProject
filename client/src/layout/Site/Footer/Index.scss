@@ -1,0 +1,460 @@
+.footer {
+    background: #101046;
+
+    .container {
+        .footerTop {
+            padding-top: 272px;
+            overflow: hidden;
+            padding-bottom: 80px;
+
+            .row {
+                .col-xl-3 {
+                    .footerTopInside {
+                        .footerTopInsideHead {
+                            margin-bottom: 20px;
+
+                            .footTitle {
+                                font-weight: 600;
+                                color: white;
+                                font-size: 24px;
+                                line-height: 31.2px;
+                                margin-top: -3px;
+                                font-family: "Poppins", sans-serif !important;
+                            }
+
+
+
+                        }
+
+                        .footerTopInsideBottom {
+                            .footLinks {
+                                ul {
+                                    margin: 0;
+                                    padding: 0;
+
+                                    li {
+                                        &:not(:last-child) {
+                                            margin-bottom: 13px;
+                                        }
+
+                                        &:hover {
+                                            margin-left: 10px;
+
+                                            a {
+                                                color: #03d6f9;
+
+                                                img {
+                                                    opacity: 1;
+                                                }
+                                            }
+                                        }
+
+                                        display: flex;
+                                        align-items: center;
+                                        transition: all 0.5s;
+                                        margin-left: -20px;
+
+                                        a {
+                                            display: flex;
+                                            align-items: center;
+                                            font-size: 18px;
+                                            color: white;
+                                            transition: all 0.5s;
+                                            position: relative;
+
+                                            img {
+                                                margin-right: 5px;
+                                                opacity: 0;
+                                                transition: all 0.5s;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .footAbout {
+                                ul {
+                                    margin: 0;
+                                    padding: 0;
+
+                                    li {
+                                        display: flex;
+                                        align-items: center;
+
+                                        &:not(:last-child) {
+                                            margin-bottom: 15px;
+                                        }
+
+                                        &:hover {
+                                            cursor: pointer;
+
+                                            span {
+                                                color: #03d6f9;
+                                            }
+                                        }
+
+                                        svg {
+                                            font-size: 18px;
+                                            margin-right: 8px;
+                                            color: white;
+                                        }
+
+                                        span {
+                                            font-size: 18px;
+                                            transition: all 0.3s;
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .followLinks {
+                                ul {
+                                    margin: 0;
+                                    padding: 0;
+
+                                    li {
+                                        &:not(:last-child) {
+                                            margin-bottom: 13px;
+                                        }
+
+                                        a {
+                                            display: flex;
+                                            align-items: center;
+                                            color: white;
+
+                                            .followLinksIcon {
+                                                width: 34px;
+                                                height: 34px;
+                                                line-height: 34px;
+                                                text-align: center;
+                                                border: unset;
+                                                border-radius: 5px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+
+                                                svg {
+                                                    color: white;
+                                                    font-size: 17px;
+                                                }
+                                            }
+
+                                            .footFacebook {
+                                                background: #4934d3;
+                                            }
+
+                                            .footTwitter {
+                                                background: #03d6f9;
+                                            }
+
+                                            .footTwitch {
+                                                background: rgb(110, 60, 210);
+                                            }
+
+                                            .footYoutube {
+                                                background: rgb(172, 46, 46);
+                                            }
+
+                                            span {
+                                                font-size: 18px;
+                                                padding-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerMiddle {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #546181;
+            padding-bottom: 30px;
+
+            .footerMiddleLinks {
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                display: flex;
+
+                li {
+                    &:not(:last-child) {
+                        margin-right: 12px;
+                    }
+
+                    a {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        display: block;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            color: #03d6f9;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .footerBottom {
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-size: 18px;
+                color: white;
+                margin-bottom: 0;
+                font-family: "Poppins", sans-serif !important;
+                line-height: 30px;
+
+                a {
+                    color: #03d6f9;
+                    font-weight: 500;
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+                padding: 0;
+
+                li {
+                    &:not(:last-child) {
+                        margin-right: 30px;
+                    }
+
+                    font-size: 18px;
+                    color: white;
+
+                    .form-select {
+                        width: 160px;
+                        padding: 8px 35px 8px 15px;
+                        background-color: transparent;
+                        color: white;
+                        border: 1px solid #6d69f4;
+                        outline: none;
+                        box-shadow: none;
+                        font-size: 18px;
+                        --bs-form-select-bg-img: url('../../../assets/pngwing.png');
+                        background-size: 16px 12px;
+
+                        option,
+                        optgroup {
+                            background: #101046;
+                            padding: 0px 10px !important;
+                            border-radius: 0;
+                            font-size: 18px;
+                            border: 1px solid #121254;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .footerTop {
+        padding-top: 250px !important;
+    }
+
+    .footTitle {
+        font-size: 22px !important;
+        line-height: 29.2px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footerTop {
+        padding-bottom: 60px !important;
+        padding-top: 210px !important;
+
+    }
+
+    .footerBottom {
+        padding: 20px 0 !important;
+
+        p {
+            font-size: 16px !important;
+        }
+
+        ul {
+            display: flex !important;
+            align-items: center !important;
+
+            li {
+                font-size: 16px !important;
+
+                &:not(:last-child) {
+                    margin-right: 20px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerMiddle {
+        text-align: center !important;
+    }
+
+    .footTitle {
+        font-size: 19px !important;
+        line-height: 29.2px !important;
+    }
+
+    .footerBottom {
+        padding: 20px 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        flex-wrap: wrap !important;
+
+        p {
+            font-size: 16px !important;
+            margin-top: 10px !important;
+            order: 1 !important;
+        }
+
+        ul {
+            display: flex !important;
+            align-items: center !important;
+
+            li {
+                font-size: 16px !important;
+
+                &:not(:last-child) {
+                    margin-right: 20px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footerTop {
+        padding-bottom: 60px !important;
+    }
+
+    .footerBottom {
+        padding: 15px 0 !important;
+        flex-wrap: wrap !important;
+
+        p {
+            font-size: 16px !important;
+            margin-bottom: 5px !important;
+        }
+
+        ul {
+            display: flex !important;
+            align-items: center !important;
+            padding: 10px 0px !important;
+
+            li {
+                font-size: 15px !important;
+
+                .form-select {
+                    width: 140px !important;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 10px !important;
+                }
+            }
+        }
+    }
+
+    .footerMiddleLogo {
+        margin-bottom: 10px !important;
+    }
+
+    .footerMiddle {
+        padding-bottom: 20px !important;
+        display: inline-block !important;
+        width: 100% !important;
+    }
+
+    .footerMiddleLinks {
+        justify-content: center;
+
+        li {
+            &:not(:last-child) {
+                margin-right: 15px !important;
+            }
+
+            a {
+                font-size: 17px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footTitle {
+        font-size: 20px !important;
+        line-height: 24.2px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footTitle {
+        font-size: 18px !important;
+        line-height: 27.2px !important;
+    }
+}
+
+.scroolIcons {
+    background-color: #101046;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #6d69f4;
+    border-radius: 5px;
+    position: fixed;
+    right: 20px;
+    z-index: 9999;
+    transition: all 0.3s;
+    bottom: 20px;
+    display: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #4934d3;
+
+        border-color: #4934d3;
+
+    }
+
+    .footArrowI {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            font-size: 18px;
+            color: white;
+        }
+    }
+}
+
+.visible-window {
+    display: grid !important;
+}

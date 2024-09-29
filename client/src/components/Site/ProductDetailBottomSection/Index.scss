@@ -1,0 +1,583 @@
+.productDetailBottomS {
+    background: #000036;
+    padding-top: 120px;
+
+    .container {
+        .productDetailBottomBox {
+            .container {
+                .productDetailContainer {
+                    .productDetailContainerTop {
+                        display: flex;
+                        align-items: center;
+                        background-color: #242471;
+                        padding: 30px;
+                        border-radius: 10px;
+
+                        .detailTabs {
+                            width: 100%;
+                            padding: 18px 20px;
+                            cursor: pointer;
+                            text-transform: uppercase;
+                            color: white;
+                            border: 1px solid #4934d3;
+                            outline: none;
+                            border-radius: 8px;
+
+                            background: transparent;
+                            transition: all 0.3s;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            &:hover {
+                                background: #4934d3 !important;
+
+                            }
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+
+                            .detailTabsLeft {
+                                margin-right: 15px;
+                            }
+
+                            .detailTabsRight {
+                                color: white;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .productDetailContainerBottom4 {
+                        margin-top: 25px;
+
+                        .tabContent {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                    }
+
+                    .productDetailContainerBottom3 {
+                        margin-top: 25px;
+
+                        .tabContent {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                        .col-lg-8 {
+                            .descriptionBidTable {
+                                border: 1px solid #4934d3;
+                                border-radius: 10px;
+                                margin-top: 20px;
+                                overflow-x: auto;
+
+                                .descriptionBidTableInside {
+                                    width: 100%;
+                                    overflow-x: auto;
+
+                                    thead {
+                                        tr {
+                                            background: #0f0f4f;
+
+                                            th {
+                                                padding: 26px 20px 27px;
+                                                font-size: 18px;
+                                                color: white;
+                                                border-top-left-radius: 10px;
+                                                border-top-right-radius: 10px;
+                                            }
+                                        }
+                                    }
+
+                                    tbody {
+                                        tr:nth-child(odd) {
+                                            background: #242471;
+
+                                        }
+
+                                        tr:nth-child(even) {
+                                            background: #0f0f4f;
+
+                                        }
+
+                                        .aboutBidTr1 {
+
+                                            .tdFirst {
+                                                .tdFirstIcon {
+                                                    margin-right: 14px;
+
+                                                    img {
+                                                        width: 60px;
+                                                        height: 60px;
+                                                        border-radius: 50%;
+                                                    }
+
+                                                }
+
+                                                span {
+                                                    font-size: 16px;
+                                                    color: white;
+                                                }
+                                            }
+
+                                            td {
+
+                                                padding: 10px 20px;
+                                                color: white;
+                                                font-size: 16px;
+
+                                            }
+                                        }
+
+                                        .aboutBidTr2 {
+
+                                            .tdFirst {
+                                                .tdFirstIcon {
+                                                    margin-right: 14px;
+
+                                                    span {
+                                                        font-size: 16px;
+                                                        color: white;
+                                                    }
+                                                }
+                                            }
+
+                                            td {
+
+                                                padding: 10px 20px;
+                                                color: white;
+                                                font-size: 16px;
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .productDetailContainerBottom2 {
+                        margin-top: 25px;
+
+                        .tabContent {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                        .col-lg-8 {
+                            .productDescNoteP {
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+
+                                    color: white;
+                                    margin-bottom: 0;
+                                    margin-top: 10px;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+                            }
+
+                            .productDescNote {
+                                .productDescNoteLeft {
+                                    margin-right: 1rem;
+                                }
+
+                                .productDescNoteRight {
+                                    h3 {
+                                        font-size: 43px;
+                                        line-height: 57px;
+                                        color: white;
+                                        font-weight: 500;
+                                        font-family: "Poppins", sans-serif !important;
+                                    }
+                                }
+                            }
+
+                            .productDescTable {
+                                border: 1px solid #4934d3;
+                                border-radius: 10px;
+                                margin-top: 20px;
+                                overflow-x: auto;
+
+                                table {
+                                    width: 100%;
+                                    overflow-x: auto;
+
+                                    thead {
+                                        tr {
+                                            th {
+                                                padding: 26px 20px 27px;
+                                                font-size: 18px;
+                                                color: white;
+                                                background: #0f0f4f;
+                                                border-top-left-radius: 10px;
+                                                border-top-right-radius: 10px;
+                                            }
+                                        }
+                                    }
+
+                                    tbody {
+                                        .firstTr {
+                                            background: #242471;
+
+                                            td {
+                                                padding: 10px 20px;
+                                                color: white;
+                                            }
+                                        }
+
+                                        .secondTr {
+                                            background: #0f0f4f;
+
+                                            td {
+                                                padding: 10px 20px;
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .productDetailContainerBottom1 {
+                        margin-top: 25px;
+
+                        .tabContent {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                        .col-lg-8 {
+                            .productDetailBotDesc {
+                                margin-top: 20px;
+                                border: 1px solid #4934d3;
+                                border-radius: 10px;
+                                padding: 20px 25px;
+
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+
+                                    color: white;
+                                    margin-bottom: 0;
+                                    margin-top: 0;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tabsActive {
+    background: #4934d3 !important;
+}
+
+
+
+.accordion-item {
+    background: #101046 !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    border: 1px solid #6d69f4 !important;
+    position: relative !important;
+    margin-top: 15px !important;
+    padding: 11px 2px !important;
+}
+
+.accordion-header {
+    font-size: 24px !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+    line-height: 31.2px !important;
+    margin-top: -3px !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.accordion-button {
+    background: transparent !important;
+    color: white !important;
+    border-top-left-radius: calc(0.25rem - 1px) !important;
+    border-top-right-radius: calc(0.25rem - 1px) !important;
+    font-size: 18px !important;
+    padding: 15px 20px 12px !important;
+
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    text-align: left !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow-anchor: none !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease !important;
+
+    &::after {
+        background-image: url('https://pixner.net/techbid/techbid/assets/img/faq/arrow.png') !important;
+        width: 40px !important;
+        height: 40px !important;
+        border: 1px solid #6d69f4 !important;
+        border-radius: 5px !important;
+        text-align: center !important;
+        background-position: center;
+        transition: all 0.4s !important;
+
+    }
+
+}
+
+.accordion-item:hover .accordion-button::after {
+    background-color: #4934d3 !important;
+    border-color: #4934d3 !important;
+}
+
+.accordion-body {
+    padding: 5px 0 !important;
+
+    p {
+        font-size: 18px !important;
+        color: white !important;
+        line-height: 30px !important;
+        font-family: "Poppins", sans-serif !important;
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .productDetailContainerTop {
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        padding: 30px !important;
+
+        .detailTabs {
+            width: 30.6666666667% !important;
+            margin: 8px !important;
+
+            .detailTabsLeft {
+                margin-right: 12px !important;
+            }
+        }
+    }
+
+    .accordion-header {
+        font-size: 22px !important;
+        line-height: 29.2px !important;
+    }
+
+    .productDescNoteRight {
+        h3 {
+            font-size: 38px !important;
+            line-height: 49px !important;
+        }
+    }
+
+    .tabContent {
+        font-size: 22px !important;
+        line-height: 29.2px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .productDetailBottomS {
+        padding-top: 80px !important;
+    }
+
+    .productDescNoteRight {
+        h3 {
+            font-size: 34px !important;
+            line-height: 42px !important;
+        }
+    }
+
+    .productDetailContainerTop {
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        padding: 30px !important;
+
+        .detailTabs {
+            width: 46% !important;
+            margin: 8px !important;
+
+            .detailTabsLeft {
+                margin-right: 12px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .productDetailBottomS {
+        padding-top: 70px !important;
+    }
+
+    .accordion-header {
+        font-size: 19px !important;
+        line-height: 29.2px !important;
+    }
+
+    .tabContent {
+        font-size: 19px !important;
+        line-height: 29.2px !important;
+    }
+
+    .productDetailContainerTop {
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        padding: 30px !important;
+
+        .detailTabs {
+            width: 100% !important;
+            margin: 0 !important;
+
+            &:not(:last-child) {
+                margin-bottom: 12px !important;
+            }
+
+            .detailTabsLeft {
+                margin-right: 12px !important;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .productDetailBottomS {
+        padding-top: 60px !important;
+    }
+
+    .accordion-button {
+        font-size: 14px !important;
+        padding: 9px 61px 12px 8px !important;
+        margin-top: 0 !important;
+
+        &::after {
+            width: 30px !important;
+            height: 30px !important;
+            position: absolute !important;
+            right: 8px !important;
+        }
+    }
+
+    .productDescNoteRight {
+        h3 {
+            font-size: 30px !important;
+            line-height: 38px !important;
+        }
+    }
+
+    .productDetailBotDesc {
+        padding: 20px 15px !important;
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tabContent {
+        font-size: 20px !important;
+        line-height: 24.2px !important;
+    }
+
+    .accordion-header {
+        font-size: 20px !important;
+        line-height: 24.2px !important;
+    }
+
+    .accordion-body {
+        padding: 2px 0 !important;
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .productDetailContainerTop {
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        padding: 10px !important;
+
+        .detailTabs {
+            width: 100% !important;
+            margin: 0 !important;
+
+            &:not(:last-child) {
+                margin-bottom: 12px !important;
+                margin-right: 0 !important;
+            }
+
+            .detailTabsLeft {
+                margin-right: 12px !important;
+            }
+        }
+    }
+
+    .productDescNoteRight {
+        h3 {
+            font-size: 26px !important;
+            line-height: 35px !important;
+            font-weight: 600 !important;
+        }
+    }
+
+    .accordion-header {
+        font-size: 18px !important;
+        line-height: 27.2px !important;
+    }
+
+    .tabContent {
+        font-size: 18px !important;
+        line-height: 27.2px !important;
+    }
+
+    .productDetailBotDesc {
+        p {
+            line-height: 1.9 !important;
+            font-size: 14px !important;
+        }
+    }
+
+    .productDescNoteP {
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+}

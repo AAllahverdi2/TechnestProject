@@ -1,0 +1,421 @@
+.sidebar {
+    min-height: 100vh;
+    background: #191c24;
+    font-weight: normal;
+    padding: 0;
+    width: 244px;
+    z-index: 11;
+    font-family: Rubik, sans-serif;
+    transition: width 0.25s ease, background 0.25s ease;
+
+    .sidebarTop {
+        transition: width 0.25s ease, background 0.25s ease;
+        background: #191c24;
+        width: 244px;
+        height: 70px;
+
+        .sidebarTopLink2 {
+            color: #38425e;
+            font-size: 1.5rem;
+            line-height: 48px;
+            margin-right: 0;
+            padding: 0rem 0rem 0rem 1.3rem;
+            width: 100%;
+            display: none;
+
+            img {
+                width: calc(70px - 50px);
+                max-width: 100%;
+                height: 28px;
+                margin: auto;
+                text-align: center;
+            }
+        }
+
+        .sidebarTopLink1 {
+            color: #38425e;
+            font-size: 1.5rem;
+            line-height: 48px;
+            margin-right: 0;
+            padding: 0rem 0rem 0rem 1.3rem;
+            width: 100%;
+
+            img {
+                width: calc(244px - 120px);
+                max-width: 100%;
+                height: 28px;
+                text-align: center;
+                object-fit: contain;
+                margin: auto;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .sidebarBottom {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-bottom: 60px;
+        padding-top: 70px;
+        display: flex;
+        margin-top: 0;
+        padding-left: 0;
+        overflow: hidden;
+
+        .sidebarBottomLinks {
+            transition-duration: 0.25s;
+            transition-property: background;
+        }
+
+        .profileImage {
+            padding-right: 0px;
+
+            .profileImageInside {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0.6rem 1.17rem;
+                line-height: 1.25;
+
+                .profileImageInsideLeft {
+                    display: flex;
+                    align-items: center;
+
+                    .profileImageInsideLeftImg {
+                        position: relative;
+
+                        img {
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50% !important;
+                        }
+
+                        .activeGreen {
+                            position: absolute;
+                            left: 66%;
+                            width: 10px;
+                            height: 10px;
+                            color: #ffffff;
+                            border-radius: 100%;
+                            text-align: center;
+                            font-size: .625rem;
+                            line-height: 1.5;
+                            top: 26px;
+                            border: 2px solid #2c2e33;
+                            background: #00d25b ;
+                        }
+                    }
+
+                    .profileImageInsideLeftAbout {
+                        margin-left: 1rem;
+
+                        h5 {
+                            white-space: nowrap;
+                            font-weight: 400 !important;
+                            margin-bottom: 0;
+                            font-size: 1rem;
+                            line-height: 1.2;
+                            font-family: Rubik, sans-serif;
+                            color: white;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            color: #6c7293;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+
+                .profileImageInsideRight {
+                    svg {
+                        font-size: 20px;
+                        color: #6c7293;
+                        cursor: pointer;
+                    }
+                }
+
+                .profilDropMenu {
+                    z-index: 100000000;
+
+                    right: auto;
+                    bottom: auto;
+                    padding: 0;
+                    margin-top: 1.25rem;
+                    position: absolute;
+                    transform: translate3d(60px, 55px, 0px);
+                    top: 0px;
+                    left: -22px;
+                    display: none;
+                    will-change: transform;
+                    float: left;
+                    min-width: 10rem;
+                    margin: 0.125rem 0 0;
+                    font-size: 1rem;
+                    color: #ffffff;
+                    text-align: left;
+                    list-style: none;
+                    background-color: #191c24;
+                    background-clip: padding-box;
+                    border: 1px solid #2c2e33;
+                    border-radius: 0.25rem;
+
+                    .profilDropMenuItem {
+                        font-size: .875rem;
+                        align-items: center;
+                        padding: 11px 13px;
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        clear: both;
+                        font-weight: 400;
+                        color: #ffffff;
+                        text-align: inherit;
+                        white-space: nowrap;
+                        background-color: transparent;
+                        border: 0;
+
+                        &:hover {
+                            cursor: pointer;
+                            background-color: #13151b;
+                        }
+
+                        .profilDropMenuItemImage {
+                            color: #ffffff;
+                            position: relative;
+
+                            .profDropImgBox {
+                                width: 30px;
+                                height: 30px;
+                                text-align: center;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50% !important;
+                                background-color: #0d0d0d !important;
+
+                                .setIcon {
+                                    color: #0090e7 !important;
+                                    font-size: 0.80rem !important;
+                                }
+
+                                .infoIcon {
+                                    color: #8f5fe8 !important;
+                                }
+
+                                .todoİcon {
+                                    color: #00d25b !important;
+                                }
+                            }
+
+
+                        }
+
+                        .profilDropMenuItemText {
+                            line-height: 1;
+                            padding-left: 10px;
+
+                            p {
+                                margin-bottom: 0 !important;
+                                font-size: 12px;
+                                line-height: 1;
+                            }
+                        }
+                    }
+
+                    .profilDropMenuLine {
+                        height: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        border-top: 1px solid #2c2e33;
+                    }
+                }
+            }
+        }
+
+        .navCategory {
+            padding: 0.5rem 1.188rem;
+            line-height: 1;
+
+            span {
+                color: #6c7293;
+                font-weight: 500;
+                font-size: 14px;
+                height: auto;
+                padding-left: 0 !important;
+
+                transition-duration: 0.45s;
+                align-items: center;
+                white-space: nowrap;
+                padding: 0.8rem 10px 0.8rem 1.188rem;
+                display: flex;
+                border-radius: 0px 100px 100px 0px;
+            }
+        }
+
+        .navMenu {
+            padding-right: 20px;
+
+            &:hover {
+                a {
+                    background: #0f1015;
+                    color: #ffffff;
+                }
+            }
+
+            a {
+                transition-duration: 0.45s;
+                transition-property: color;
+                align-items: center;
+                white-space: nowrap;
+                padding: 0.8rem 10px 0.8rem 1.188rem;
+                color: #6c7293;
+                display: flex;
+                height: 46px;
+                border-radius: 0px 100px 100px 0px;
+
+                .navMenuText {
+                    color: inherit;
+                    display: inline-block;
+                    font-size: 0.9375rem;
+                    line-height: 1;
+                    vertical-align: middle;
+                }
+
+                .speedometer {
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        svg {
+                            color: #8f5fe8;
+                        }
+                    }
+                }
+
+                .navMenuIcon {
+                    margin-right: 0.5rem;
+                    font-size: 0.8125rem;
+                    line-height: 1;
+                    background: rgba(108, 114, 147, 0.2);
+                    width: 31px;
+                    height: 31px;
+                    border-radius: 100%;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+.activeProfDrop {
+    display: block !important;
+}
+
+.navMenuActive {
+    a {
+        background: #0f1015 !important;
+        position: relative !important;
+        color: #ffffff !important;
+
+        &::before {
+            content: "" !important;
+            width: 3px !important;
+            height: 100% !important;
+            background: #0090e7 !important;
+            display: inline-block !important;
+            position: absolute !important;
+            left: 0 !important;
+            top: 0 !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        right: 0 !important;
+        position: fixed !important;
+        max-height: 100vh !important;
+        top: 70px !important;
+        bottom: 0 !important;
+        overflow: auto !important;
+        transition: all 0.25s ease-out !important;
+    }
+
+    .sidebarTop {
+        width: 55px !important;
+    }
+
+    .sidebarBottom {
+        padding-top: 0 !important;
+    }
+}
+
+.sideBar {
+    width: 70px !important;
+
+    .sidebarTop {
+        width: 70px !important;
+
+        .sidebarTopLink2 {
+
+            display: inline-block !important;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        .sidebarTopLink1 {
+            display: none;
+
+        }
+    }
+
+    .sidebarBottom {
+        overflow: visible !important;
+
+        .navCategory {
+            display: none !important;
+        }
+
+        .profileImage {
+            .profileImageInside {
+                .profileImageInsideLeft {
+                    .profileImageInsideLeftAbout {
+                        display: none !important;
+                    }
+                }
+
+                .profileImageInsideRight {
+                    display: none !important;
+                }
+            }
+        }
+
+        li {
+            position: relative !important;
+            padding: 0 !important;
+
+            a {
+                text-align: center !important;
+
+                .navMenuText {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+}
+
+.resSidebarInHead {
+    right: -244px !important;
+}

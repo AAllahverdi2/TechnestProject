@@ -1,0 +1,369 @@
+.adminHeader {
+    font-weight: normal;
+    background: #191c24;
+    left: 244px;
+    transition: left 0.25s ease;
+    padding: 0 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: row !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1030;
+    font-family: Rubik, sans-serif;
+
+    .adminHeaderTop {
+        transition: width 0.25s ease, background 0.25s ease;
+        background: #191c24;
+        width: 244px;
+        height: 70px;
+
+        .adminHeaderTopLogo {
+            display: none;
+
+            img {
+                width: calc(70px - 50px);
+                max-width: 100%;
+                height: 28px;
+                margin: auto;
+            }
+        }
+    }
+
+    .adminHeaderBottom {
+        box-shadow: 20px 19px 34px -15px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        align-items: stretch !important;
+        display: flex;
+        transition: width 0.25s ease;
+        flex-grow: 1;
+        height: 70px;
+
+        .adminHeadBtn1 {
+            font-size: 0.875rem;
+            border: 0;
+            color: #6c7293;
+            height: 70px;
+            border-radius: 0px;
+            align-self: center !important;
+            cursor: pointer;
+            padding: 0.25rem 0.75rem;
+            line-height: 1;
+            background-color: transparent;
+            outline: 0;
+        }
+
+        .headerSearchBx {
+            flex-direction: row;
+            align-items: center;
+            width: 100% !important;
+            display: flex;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+
+            li {
+                width: 100%;
+
+                .headerSearchInputBox {
+                    color: inherit;
+                    font-size: 0.9375rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    white-space: nowrap;
+
+                    padding: 0.5rem 0;
+
+                    input {
+                        background: #191c24;
+                        padding: 13px 20px 11px 20px;
+                        width: 75%;
+                        border-radius: 6px;
+                        height: calc(2.25rem + 2px);
+                        font-weight: normal;
+                        font-size: 0.875rem;
+                        color: #6c7293;
+                        box-shadow: none;
+                        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                        display: block;
+                        line-height: 1;
+                        outline: none;
+                        border: 1px solid #2c2e33;
+
+                        &::placeholder {
+                            color: #6c7293;
+                        }
+                    }
+                }
+            }
+        }
+
+        .adminUserDrop {
+            display: flex;
+            padding-left: 0;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 0;
+            list-style: none;
+
+            .userLeftDrop {
+                line-height: 1rem;
+                position: relative;
+                color: white;
+
+                .userLeftDropBtn {
+                    color: inherit;
+                    font-size: 0.9375rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    white-space: nowrap;
+                    display: block;
+                    padding: 0.5rem 0;
+                    background: none;
+                    border: none;
+                    outline: none;
+
+                    .userLeftDropButtonInside {
+                        display: flex;
+                        font-weight: normal;
+                        align-items: center;
+
+                        img {
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50% !important;
+                        }
+
+                        p {
+                            white-space: nowrap;
+                            margin-left: 1rem;
+                            font-size: 0.875rem;
+                            color: white;
+                        }
+
+                        span {
+                            svg {
+                                color: rgb(167, 175, 183);
+
+                            }
+                        }
+                    }
+                }
+
+                .userLeftDropInside {
+                    position: absolute;
+                    font-size: 0.9rem;
+                    margin-top: 0;
+                    top: 48px;
+                    right: 0;
+                    z-index: 1000;
+                    min-width: 10rem;
+                    margin: 0.125rem 0 0;
+                    color: #ffffff;
+                    text-align: left;
+                    list-style: none;
+                    background-color: #191c24;
+                    background-clip: padding-box;
+                    left: auto;
+                    border: none;
+                    border-radius: 4px;
+                    animation-name: dropdownAnimation;
+                    animation-duration: 0.25s;
+                    animation-fill-mode: both;
+                    box-shadow: 0px 0px 35px -3px black;
+                    padding: 0;
+                    display: none;
+
+                    .userLeftDropInsideLine {
+                        height: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        border-top: 1px solid #2c2e33;
+                    }
+
+                    .userLeftDropInsideClick {
+                        margin-bottom: 0;
+                        padding: 11px 13px;
+                        cursor: pointer;
+                        font-size: 1rem;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        width: 100%;
+                        clear: both;
+                        font-weight: 400;
+                        color: #ffffff;
+                        text-align: inherit;
+                        white-space: nowrap;
+                        background-color: transparent;
+                        border: 0;
+
+                        .userLeftDropInsideText {
+                            line-height: 1;
+                            padding-left: 15px;
+
+                            p {
+                                font-size: 0.875rem;
+                                color: white;
+                            }
+                        }
+
+                        .userLeftDropInsideIcon {
+                            color: #ffffff;
+                            position: relative;
+
+                            .userLeftDropInsideI {
+
+
+                                width: 40px;
+                                height: 40px;
+                                text-align: center;
+                                display: flex;
+                                align-items: center;
+                                border-radius: 50% !important;
+                                background-color: #0d0d0d !important;
+                                justify-content: center;
+
+
+                            }
+
+                            .setLogOutI {
+                                svg {
+                                    color: #fc424a !important;
+                                }
+                            }
+
+                            .setIconProf {
+                                svg {
+                                    color: #00d25b !important;
+                                }
+                            }
+                        }
+                    }
+
+                    h6 {
+                        font-size: 0.9375rem;
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .sideBarToggleMenu {
+            border: 0;
+            color: #6c7293;
+            height: 70px;
+            border-radius: 0px;
+            padding: 0.25rem 0.75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: transparent;
+            cursor: pointer;
+            svg{
+                color: #6c7293 ;
+            }
+        }
+    }
+}
+
+.activeUserAdminDrop {
+    display: block !important;
+}
+
+@media (min-width: 992px) {
+    .adminUserDrop {
+        margin-left: auto;
+
+    }
+
+}
+
+@keyframes dropdownAnimation {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+.activeHeadBurger {
+    left: 70px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .headerSearchInputBox {
+        margin-left: 0.8rem !important;
+        margin-right: 0.8rem !important;
+    }
+
+    .userLeftDropBtn {
+        margin-left: 0.8rem !important;
+        margin-right: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .adminHeader {
+        left: 0 !important;
+    }
+
+    .adminHeaderTop {
+        width: 75px !important;
+    }
+
+    .sideBarToggleMenu {
+        padding-left: 15px !important;
+        padding-right: 11px !important;
+        border-right: none !important;
+    }
+
+    .userLeftDropInside {
+        width: calc(100% - 40px) !important;
+        right: 10px !important;
+    }
+
+    .adminHeaderTopLogo {
+        display: inline-block !important;
+
+        img {
+            object-fit: contain !important;
+        }
+    }
+
+    .adminHeaderBottom {
+        width: auto !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .adminHeadBtn1 {
+        display: none !important;
+    }
+
+    .userLeftDrop {
+        position: static !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .adminHeaderTop {
+        width: 55px !important;
+    }
+
+    .adminHeaderTopLogo {
+        padding-top: 0 !important;
+    }
+}
+

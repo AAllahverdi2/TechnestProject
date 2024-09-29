@@ -1,0 +1,98 @@
+.blogHero {
+    background: url('../../../assets/blogHero.png') no-repeat center center;
+    background-size: cover;
+    padding: 0 0 0;
+
+    .container {
+        .row {
+            .col-lg-6 {
+                .blogHeroRight {
+                    max-width: 600px;
+                    height: 400px;
+                }
+
+                .blogHeroLeft {
+                    padding: 70px 0 0;
+
+                    h1 {
+                        font-size: 76px;
+                        font-weight: 700;
+                        line-height: 98.8px;
+                        margin-top: -7px;
+                        font-family: "Poppins", sans-serif !important;
+                        color: white;
+                    }
+
+                    ul {
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+                        display: flex;
+                        align-items: center;
+
+                        li {
+                            display: flex;
+                            align-items: center;
+                            color: white;
+                            font-size: 18px;
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+
+                            svg {
+                                font-size: 19px;
+                            }
+
+                            a {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .blogHeroLeft {
+        padding: 90px 0 0 !important;
+
+        h1 {
+            font-size: 56px !important;
+            line-height: 70.8px !important;
+        }
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .blogHeroLeft {
+        padding: 70px 0 70px !important;
+
+        h1 {
+            font-size: 50px !important;
+            line-height: 60.8px !important;
+        }
+    }
+
+    .blogHeroRight {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .blogHeroLeft {
+        h1 {
+            font-size: 44px !important;
+            line-height: 60.8px !important;
+        }
+    }
+
+    .blogHeroRight {
+        display: none !important;
+    }
+
+}

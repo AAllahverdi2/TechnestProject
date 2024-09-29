@@ -1,0 +1,148 @@
+.container {
+
+    .row {
+
+        .orderTop {
+            font-family: Rubik, sans-serif;
+            display: flex;
+            margin-bottom: 1.5rem;
+            align-items: stretch;
+            justify-content: stretch;
+
+            .orderTopInside {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                border-radius: 0.25rem;
+                width: 100%;
+                min-width: 100%;
+                word-wrap: break-word;
+                background-color: #191c24;
+                background-clip: border-box;
+                border: 1px solid rgba(0, 0, 0, 0.125);
+
+                .orderTopInsideBox {
+                    flex: 1 1 auto;
+                    min-height: 1px;
+                    padding: 1.75rem 1.5625rem;
+
+                    .orderTopInsideBoxFilter {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+
+                        .orderTopInsideFilterRight {
+                            width: 40%;
+
+                            select {
+                                padding: 0.4375rem 0.75rem;
+                                border: none;
+                                height: auto;
+                                resize: none;
+                                overflow-x: hidden;
+                                overflow: auto;
+                                font-weight: normal;
+                                font-size: 0.875rem;
+                                background-color: #2A3038;
+                                border-radius: 2px;
+                                color: #fff;
+
+                                display: block;
+                                width: 100%;
+                                margin: 0;
+                                background-clip: padding-box;
+                                line-height: 1;
+                                outline: none;
+                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                                optgroup {
+                                    color: white !important;
+                                    font-weight: 300;
+                                }
+
+                                option {
+                                    color: #495057 !important;
+
+                                }
+
+                                &::placeholder {
+                                    color: #495057 !important;
+                                }
+
+                                &:focus {
+                                    color: #495057 !important;
+
+                                    border: 1px solid rgba(71, 164, 71, 0.5);
+                                    background-color: #2A3038;
+                                }
+                            }
+
+                        }
+
+                        .orderTopInsideFilterLeft {
+                            width: 40%;
+                            display: none;
+
+                            input {
+                                border: 1px solid #2c2e33;
+                                height: calc(2.25rem + 2px);
+                                font-weight: normal;
+                                font-size: 0.875rem;
+                                padding: 0.625rem 0.6875rem;
+                                background-color: #2A3038;
+                                border-radius: 2px;
+                                color: #ffffff;
+                                display: block;
+                                width: 100%;
+
+                                background-clip: padding-box;
+                                line-height: 1;
+                                outline: none;
+                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+                                &::placeholder {
+                                    color: #495057 !important;
+                                }
+
+                                &:focus {
+                                    color: #495057 !important;
+
+                                    border: 1px solid rgba(71, 164, 71, 0.5);
+                                    background-color: #2A3038;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .orderTopInsideFilterLeft {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .orderTopInsideFilterLeft,
+    .orderTopInsideFilterRight {
+        width: 45% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .orderTopInsideBoxFilter {
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+        row-gap: 10px !important;
+
+        .orderTopInsideFilterLeft,
+        .orderTopInsideFilterRight {
+            width: 100% !important;
+        }
+    }
+}

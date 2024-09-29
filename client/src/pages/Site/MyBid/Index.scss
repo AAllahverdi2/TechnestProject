@@ -1,0 +1,10 @@
+.myBidssBottom {
+    background: #000036;
+
+    .container {
+        .myBidssBottomInside {
+            transform: translateY(-120px);
+            margin-bottom: -120px;
+        }
+    }
+}

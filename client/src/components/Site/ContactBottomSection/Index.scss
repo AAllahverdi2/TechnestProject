@@ -1,0 +1,477 @@
+.contactBottomSection {
+    padding-top: 120px;
+    background: #000036;
+
+    .container {
+        .contactBottomSectionTop {
+            text-align: center;
+            max-width: 700px;
+            margin: -10px auto 40px;
+            position: relative;
+
+            h2 {
+                font-weight: 700;
+                font-size: 57px;
+                line-height: 74.1px;
+                margin-top: -13px;
+                font-family: "Poppins", sans-serif !important;
+                color: white;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 35px;
+                text-align: center;
+                line-height: 30px;
+                font-family: "Poppins", sans-serif !important;
+                color: white;
+            }
+        }
+
+        .row {
+            .col-lg-4 {
+                .contactBottomLeft {
+                    background-color: #242471;
+                    position: relative;
+                    border-radius: 10px;
+                    padding: 30px 30px;
+
+                    .contactBottomLeftTop {
+                        h3 {
+                            font-size: 43px;
+                            line-height: 57px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                            font-weight: 500;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: white;
+                            margin-bottom: 0;
+                            font-family: "Poppins", sans-serif !important;
+                        }
+                    }
+
+                    .contactBottomLeftMiddle {
+                        margin: 0;
+                        padding: 0;
+                        padding: 35px 0;
+
+                        li {
+                            display: flex;
+                            align-items: center;
+                            font-size: 18px;
+
+                            &:not(:last-child) {
+                                margin-bottom: 10px;
+                            }
+
+                            &:hover {
+                                .contactIcon {
+                                    background: #000036;
+                                    cursor: pointer;
+                                    border-color: #000036;
+                                }
+
+                                a {
+                                    color: #03d6f9;
+                                }
+                            }
+
+                            a {
+                                padding-left: 10px;
+                                transition: all 0.3s;
+                                color: white;
+                                font-size: 18px;
+                            }
+
+                            .contactIcon {
+                                text-align: center;
+                                border-radius: 50%;
+                                border: 1px solid #546181;
+                                width: 45px;
+                                height: 45px;
+                                line-height: 45px;
+                                background: #101046;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: all 0.3s;
+
+                                svg {
+                                    color: white;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+
+                    .contactBottomLeftBottom {
+                        border-top: 1px solid #546181;
+                        padding-top: 30px;
+
+                        h5 {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                            margin-bottom: 24px;
+                        }
+
+                        .contactSocial {
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            align-items: center;
+
+                            li {
+                                text-align: center;
+                                border-radius: 50%;
+                                border: 1px solid #546181;
+                                display: block;
+                                width: 40px;
+                                height: 40px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                line-height: 38px;
+                                transition: all 0.3s;
+
+                                &:hover {
+                                    cursor: pointer;
+                                    background-color: #000036;
+                                    border-color: #000036;
+                                }
+
+                                &:not(:last-child) {
+                                    margin-right: 14px;
+                                }
+
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    color: white;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-lg-8 {
+                .contactBottomRight {
+                    background-color: #242471;
+                    padding: 30px 30px;
+                    border-radius: 10px;
+                    border: 1px solid #6983c6;
+
+                    .contactForm {
+                        position: relative;
+
+                        .row {
+                            .col-lg-12 {
+                                .formBoxInContact {
+                                    background-color: transparent !important;
+                                    padding: unset !important;
+                                    border: none !important;
+                                    margin-bottom: 10px !important;
+                                    padding-bottom: 20px !important;
+                                    position: relative !important;
+
+                                    small {
+                                        color: #e74c3c;
+                                        position: absolute;
+                                        bottom: 0;
+                                        left: 0;
+                                        visibility: visible;
+                                    }
+
+                                    label {
+                                        font-family: "Jost" !important;
+                                        color: white;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 24px;
+                                        line-height: 23px;
+                                        margin-bottom: 15px;
+                                        display: block;
+                                    }
+
+                                    textarea {
+                                        width: 100%;
+                                        border: 1px solid #6983c6;
+                                        padding: 10px;
+                                        outline: none;
+                                        border-radius: 4px;
+                                        background-color: transparent;
+                                        color: white;
+
+                                        &::placeholder {
+
+                                            color: #b0bcde;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .col-lg-6 {
+                                .formBoxInContact {
+                                    background-color: transparent !important;
+                                    padding: unset !important;
+                                    border: none !important;
+                                    margin-bottom: 10px !important;
+                                    padding-bottom: 20px !important;
+                                    position: relative !important;
+
+                                    small {
+                                        color: #e74c3c;
+                                        position: absolute;
+                                        bottom: 0;
+                                        left: 0;
+                                        visibility: visible;
+                                    }
+
+                                    label {
+                                        font-family: "Jost" !important;
+                                        color: white;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 24px;
+                                        line-height: 23px;
+                                        margin-bottom: 15px;
+                                        display: block;
+                                    }
+
+                                    input {
+                                        outline: 0;
+                                        border: 1px solid #6983c6;
+                                        border-radius: 5px;
+                                        display: block;
+                                        background-color: transparent;
+                                        width: 100%;
+                                        padding: 15px 10px;
+                                        font-size: 14px;
+                                        color: white;
+
+                                        &::placeholder {
+
+                                            color: #b0bcde;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .contactBtn {
+                            border-radius: 10px;
+                            font-size: 18px;
+                            font-weight: 500;
+                            display: inline-block;
+                            color: white;
+                            text-transform: capitalize;
+                            transition: all 0.3s;
+                            background: #4934d3;
+                            position: relative;
+                            overflow: hidden;
+                            z-index: 1;
+                            max-width: 200px;
+                            cursor: pointer;
+                            padding: 11px 20px 14px;
+                            border: 1px solid #4934d3;
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                bottom: 100%;
+                                left: 100%;
+                                width: 100%;
+                                height: 100%;
+                                background-color: #242471;
+                                transition: all 0.6s;
+                                z-index: -1;
+                            }
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                z-index: -2;
+                            }
+
+                            &:hover {
+                                border: 1px solid #4934d3;
+                            }
+
+                            &:hover::before {
+                                bottom: 0;
+                                left: 0;
+                            }
+                        }
+
+                        .successMessage {
+                            p {
+                                position: absolute;
+                                bottom: 5px;
+                                right: 0;
+                                color: green;
+                                animation: scalen 0.5s linear;
+                                transition: all 0.5s;
+                                font-size: 18px;
+                                line-height: 30px;
+                                font-family: "Poppins", sans-serif !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes scalen {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .contactBottomLeftTop {
+        h3 {
+            font-size: 38px !important;
+            line-height: 49px !important;
+        }
+    }
+
+    .contactBottomLeftBottom {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contactBottomSection {
+        padding-top: 80px !important;
+    }
+
+    .contactBottomLeftTop {
+        h3 {
+            font-size: 34px !important;
+            line-height: 42px !important;
+        }
+    }
+
+    .contactBottomSectionTop {
+        h2 {
+            font-size: 47px !important;
+            line-height: 64.1px !important;
+        }
+    }
+
+    .contactBottomLeft {
+        margin-bottom: 25px !important;
+        padding: 25px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contactBottomSection {
+        padding-top: 70px !important;
+    }
+
+    .contactBottomLeftBottom {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contactBottomSection {
+        padding-top: 60px !important;
+    }
+
+    .contactBottomLeftTop {
+        h3 {
+            font-size: 30px !important;
+            line-height: 38px !important;
+        }
+    }
+
+    .contactBottomSectionTop {
+        h2 {
+            font-size: 37px !important;
+            line-height: 54.1px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactBottomSectionTop {
+        p {
+            font-size: 16px !important;
+        }
+
+        h2 {
+            font-size: 30px !important;
+            line-height: 44.1px !important;
+        }
+
+    }
+
+    .contactBottomLeftBottom {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contactBottomSectionTop {
+        h2 {
+            font-size: 27px !important;
+            line-height: 36.1px !important;
+        }
+
+    }
+
+    .contactBottomLeftBottom {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+
+    .successMessage {
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .contactBottomLeftTop {
+        h3 {
+            font-size: 26px !important;
+            line-height: 35px !important;
+            font-weight: 600 !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+}

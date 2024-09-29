@@ -1,0 +1,611 @@
+{
+    "header": {},
+    "pages": {
+        "home": {
+            "heroSection": {
+                "h1": "Əlverişli onlayn müsabiqələr ilə eksklüziv təkliflər!",
+                "p": "Müsabiqəyə qoşulun və bilet qiymətinizə ən sərfəli qədərə alınan həyəcan verici qadjetləri əldə edin.",
+                "btn": "İndi qeydiyyatdan keçin"
+            },
+            "supportSection": {
+                "first": " 24/7 onlayn dəstək",
+                "second": " 100% geri qaytarılma zəmanəti",
+                "third": " Çoxsaylı ödəniş qapıları",
+                "fourth": " Dünya üzrə pulsuz çatdırılma"
+            },
+            "workSection": {
+                "top": {
+                    "h2": " Necə işləyir?",
+                    "p": "Bu sadə addımları izləyin və gəlir əldə edin!"
+                },
+                "first": {
+                    "title": " Pulsuz qeydiyyatdan keçin",
+                    "text": " Müsabiqəmizi istifadə etməyə başlamaq üçün qeydiyyatdan keçməlisiniz. Bu tamamilə pulsuzdur və yalnız bir neçə kliktən ibarədır!"
+                },
+                "second": {
+                    "title": " Alış veriş et və ya təklif ver",
+                    "text": " Müsabiqəmizi istifadə etməyə başlamaq üçün qeydiyyatdan keçməlisiniz. Bu tamamilə pulsuzdur və yalnız bir neçə kliktən ibarətdir!"
+                },
+                "third": {
+                    "title": " Təklif verin",
+                    "text": " Müsabiqəmizi istifadə etməyə başlamaq üçün qeydiyyatdan keçməlisiniz. Bu tamamilə pulsuzdur və yalnız bir neçə kliktən ibarətdir!"
+                },
+                "fourth": {
+                    "title": " Qalib gəlin",
+                    "text": " Müsabiqəmizi istifadə etməyə başlamaq üçün qeydiyyatdan keçməlisiniz. Bu tamamilə pulsuzdur və yalnız bir neçə kliktən ibarətdir!"
+                }
+            },
+            "latestsAuction": {
+                "h2": "Son müsabiqə",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+                "a": "Daha çoxunu göstər"
+            },
+            "upcomingAuction": {
+                "h2": "Gələcək müsabiqə",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+            },
+            "registerFreeSection": {
+                "h3": "Pulsuz qeydiyyatdan keçin və indi təklif verməyə başlayın!",
+                "btn": "Qeydiyyatdan keçin"
+            },
+            "topWinnersSection": {
+                "h2": "Ən yaxşı qaliblər",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+            },
+            "testimonialSection": {
+                "h2": "Rəylər",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+            },
+            "managementSection": {
+                "h2": "İdarəetmə komandası ilə tanış olun",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+            },
+            "subscriberSection": {
+                "h4": "Daha çox yenilik əldə etmək və Techbidə qoşulmaq üçün bizim bülletenə abunə olun",
+                "input": "E-poçtunuzu daxil edin",
+                "button": "Abunə ol",
+                "successMessage": "Abunə olduğunuz üçün təşəkkür edirik!",
+                "errorMessage1": "Yanlış e-poçt ünvanı",
+                "errorMessage2": "E-poçt artıq mövcuddur. Xahiş edirik, başqa bir e-poçt ünvanı istifadə edin."
+            }
+        },
+        "aboutUs": {
+            "heroSection": {
+                "h1": "Bizim haqqımızda",
+                "li1": "Əsas Səhifə",
+                "li2": "Bizim haqqımızda"
+            },
+            "aboutUsSection": {
+                "h2": "Bizim haqqımızda",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
+                "textBoxs": {
+                    "first": {
+                        "title": "Sürətli Dəstək",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                    },
+                    "second": {
+                        "title": "Məmnun Müştərilər",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                    },
+                    "third": {
+                        "title": "24/7 Dəstək",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                    }
+                }
+            },
+            "odometerSection": {
+                "first": "Satılır məhsullar",
+                "second": "MarketKit-də aktiv satıcılar",
+                "third": "MarketKit-də aktiv alıcılar",
+                "fourth": "Təhlükəsiz təklifdə"
+            }
+        },
+        "product": {
+            "productHeroSection": {
+                "h1": "Hərrac",
+                "li1": "Əsas səhifə",
+                "li2": "Hərrac"
+            },
+            "productFilterSection": {
+                "sortText": "Sırala",
+                "selectOption": {
+                    "op1": "Hamısı",
+                    "op2": "Elektronika",
+                    "op3": "Mücevherat",
+                    "op4": "Avtomobil",
+                    "op5": "Ən sonuncu",
+                    "op6": "Ən köhnə",
+                    "op7": "Tezliklə bitəcək",
+                    "op8": "Daha sonra bitəcək",
+                    "label1": "Məhsul adı",
+                    "label2": "Məhsul qiyməti",
+                    "label3": "Məhsul növü",
+                    "label4": "Məhsulun yaradılma vaxtı",
+                    "label5": "Məhsulun bitmə vaxtı"
+                },
+                "searchInput": "Məhsulun adı..."
+            }
+        },
+        "contactUs": {
+            "contactUsHeroSection": {
+                "h1": "Bizimlə Əlaqə",
+                "li1": "Səhifələr",
+                "li2": "Bizimlə Əlaqə"
+            },
+            "contactBottomSection": {
+                "contactTop": {
+                    "h2": "Bizimlə Əlaqə",
+                    "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices diam in nibh mattis, sit amet ultrices nibh commodo."
+                },
+                "contactLeft": {
+                    "h3": "Əlaqə Məlumatları",
+                    "p": "Dəyərli komandamız burada kömək üçün hazırdır.",
+                    "h5": "Bizi tapın"
+                },
+                "contactRight": {
+                    "label1": "Ad",
+                    "label2": "E-poçt",
+                    "label3": "Mesaj göndərin",
+                    "input1": "Adınız nədir?",
+                    "input2": "E-poçtunuz nədir?",
+                    "input3": "Xahiş edirik buraya mesajınızı yazın...",
+                    "btn": "Təklifi göndərin",
+                    "successMessage": "Mesajınız uğurla göndərildi!",
+                    "somethingWrongMessage": "Bir şeylər yanlış gedir, Xahiş edirik yenidən cəhd edin",
+                    "err1": "Xəta Mesajı",
+                    "err2": "Xəta Mesajı",
+                    "err3": "Xəta Mesajı",
+                    "err4": "Yanlış e-poçt ünvanı"
+                }
+            }
+        },
+        "error404": {
+            "h3": "Üzr istəyirik, Səhifə Tapılmadı",
+            "p": "Üzr istəyirik, ancaq axtardığınız səhifə tapılmadı.",
+            "btn": "Əsas səhifəyə qayıt"
+        },
+        "faq": {
+            "faqHeroSection": {
+                "h1": "FAQ",
+                "li1": "Əsas Səhifə",
+                "li2": "FAQ"
+            },
+            "faqBottomSection": {
+                "h2": "Tez-tez Verilən Suallar",
+                "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+            }
+        },
+        "dashboard": {
+            "dashboardHeroSection": {
+                "li1": "Əsas Səhifə",
+                "li2": "Mənim Hesabım",
+                "li3": "Gözləmə paneli",
+                "li4": "Şəxsi Profil",
+                "li5": "Təkliflərim",
+                "li6": "Qalib Təkliflər",
+                "li7": "Sevimlilərim",
+                "li8": "Sifarişlərim",
+                "li9": "Mənim Məhsullarım"
+            },
+            "dashboardLeft": {
+                "btn1": "Çıxış",
+                "logoutMessage": "Uğurla çıxıldı! Növbəti dəfə görüşənədək.",
+                "btn2": "Bloq Yarat",
+                "accountDelete": {
+                    "btn": "Hesabı Sil",
+                    "messageTitle": "Hesabı Sil",
+                    "messageText": "Hesabınızı silmək istədiyinizə əminsinizmi? Bu əməliyyat geri qaytarıla bilməz və bütün məlumatlarınızın itirilməsinə səbəb ola bilər.",
+                    "cancelBtn": "İmtina",
+                    "confirmBtn": "Bəli, Hesabımı sil",
+                    "confirm": {
+                        "title": "Hesab Silindi",
+                        "text": "Hesabınız uğurla silindi."
+                    }
+                },
+                "list": {
+                    "li1": "Gözləmə paneli",
+                    "li2": "Şəxsi Profil",
+                    "li3": "Mənim Məhsullarım",
+                    "li4": "Təkliflərim",
+                    "li5": "Qalib Təkliflər",
+                    "li6": "Sevimlilərim",
+                    "li7": "Sifarişlərim"
+                }
+            },
+            "dashboardRight": {
+                "h5": "Mənim Aktivlərim",
+                "cards": {
+                    "firstTitle": "Aktiv Təkliflər",
+                    "secondTitle": "Qalib",
+                    "thirdTitle": "Sevimlilər"
+                },
+                "basketTable": {
+                    "emptyText": "Səbətiniz Boşdur",
+                    "th1": "Məhsul",
+                    "th2": "Məhsulun Adı",
+                    "th3": "Minimum Təklif Qiyməti",
+                    "th4": "Cari Təklif",
+                    "th5": "Son Tarix",
+                    "th6": "Sil",
+                    "deleteBtnMessage": {
+                        "errorMessage": "Bu məhsulu səbətinizdə yoxdur",
+                        "successMessage": "Məhsulunuz səbətdən silindi"
+                    },
+                    "checkOutBtn": "Ödəniş et"
+                }
+            }
+        },
+        "acceptModal": {
+            "title": "Ödəniş uğurla həyata keçirildi!",
+            "subTitle": "Sifarişiniz uğurla yerinə yetirildi! 🎉 Bizlə seçdiyiniz üçün təşəkkür edirik. Sifarişiniz üzərində çalışırıq!",
+            "btn1": "Yenidən Almaq",
+            "btn2": "Mənim Sifarişlərim"
+        },
+        "personalProfile": {
+            "firstBox": {
+                "title": "Şəxsi Məlumatlar",
+                "span1": "Ad",
+                "span2": "Doğum tarixi",
+                "span3": "Ünvan"
+            },
+            "secondBox": {
+                "title": "Hesab Ayarları",
+                "span1": "Dil",
+                "span3": "Vaxt zonası",
+                "timeZone1": "(GMT+4) Bakı",
+                "timeZone2": " (GMT-08:00) Orta Amerika",
+                "timeZone3": "(GMT+3) Rusiya",
+                "span2": {
+                    "title": "Status",
+                    "text": "Aktiv"
+                }
+            },
+            "thirdBox": {
+                "title": "E-poçt ünvanları",
+                "span": "E-poçt"
+            },
+            "fourthBox": {
+                "title": "Telefon",
+                "span": "Telefon"
+            },
+            "fifthBox": {
+                "title": "Təhlükəsizlik",
+                "span": "Şifrə"
+            }
+        },
+        "myProducts": {
+            "title": "Mənim Məhsullarım",
+            "btn1": "Gələcək",
+            "btn2": "Ən Son"
+        },
+        "myBids": {
+            "title": "Mənim Təkliflərim",
+            "btn1": "Gələcək",
+            "btn2": "Ən Son"
+        },
+        "winningBids": {
+            "title": "Qalib Təkliflər",
+            "searchInp": "Məhsul adı...",
+            "sorting": {
+                "title": "Sırala",
+                "selectOption": {
+                    "op1": "Hamısı",
+                    "op2": "Elektronika",
+                    "op3": "Mücevher",
+                    "op4": "Avtomobil",
+                    "op5": "Ən Sonuncu",
+                    "op6": "Ən Köhnə",
+                    "label1": "Məhsulun Adı",
+                    "label2": "Məhsulun Qiyməti",
+                    "label3": "Məhsulun Növü",
+                    "label4": "Məhsulun Yaradılma Vaxtı"
+                }
+            }
+        },
+        "myFavorites": {
+            "title": "Sevimlilərim",
+            "searchInp": "Məhsul adı...",
+            "sorting": {
+                "title": "Sırala",
+                "selectOption": {
+                    "op1": "Hamısı",
+                    "op2": "Elektronika",
+                    "op3": "Mücevher",
+                    "op4": "Avtomobil",
+                    "op5": "Ən Sonuncu",
+                    "op6": "Ən Köhnə",
+                    "op7": "Tez bitən",
+                    "op8": "Gecikən",
+                    "label1": "Məhsulun Adı",
+                    "label2": "Məhsulun Qiyməti",
+                    "label3": "Məhsulun Növü",
+                    "label4": "Məhsulun Yaradılma Vaxtı",
+                    "label5": "Məhsulun Son Vaxtı"
+                }
+            }
+        },
+        "myOrders": {
+            "title": "Mənim Sifarişlərim",
+            "searchInp": "Məhsul adı...",
+            "sorting": {
+                "title": "Sırala",
+                "selectOption": {
+                    "op1": "Hamısı",
+                    "op2": "Gözləmədə",
+                    "op3": "Qəbul edilmiş",
+                    "op4": "Rədd edilmiş",
+                    "label1": "Başlıq",
+                    "label2": "Ümumi Qiymət",
+                    "label3": "Sifariş Statusu"
+                }
+            },
+            "table": {
+                "th1": "Tam Ad",
+                "th2": "Gmail",
+                "th3": "Ümumi Qiymət",
+                "th4": "Ümumi Miqdar",
+                "th5": "Status",
+                "th6": "Məlumat"
+            }
+        },
+        "blog": {
+            "blogHeroSection": {
+                "title": "Blog",
+                "li1": "Əsas Səhifə",
+                "li2": "Blog"
+            },
+            "blogSecondCol": {
+                "emailErr": "Yanlış email ünvanı",
+                "emailErr2": "Email artıq mövcuddur. Xahiş edirik başqa bir email ünvanı istifadə edin.",
+                "h4": "Bizim Xəbərlərimizə Abunə Olun!",
+                "placeholder": "Sizin Email Ünvanınız",
+                "successMessage": "Abunə olduğunuz üçün təşəkkür edirik!",
+                "title2": "Əsas Məqalələr",
+                "title3": "Bizi İzləyin"
+            }
+        },
+        "blogDetail": {
+            "blogDetailHero": {
+                "h1": "Blog Detayları",
+                "li1": "Əsas Səhifə",
+                "li2": "Blog",
+                "li3": "Blog Detayları"
+            },
+            "commentSection": {
+                "deleteMessage": "🚀 Rəy uğurla silindi! Sağol, lazımsız sözlər, xoş gəl!",
+                "updateErrorComment": "Ops! Sənə bir şeyləri paylaşmağı unutduğunu göstərir. Məni əzablandırma, bir şeylər yaz! 😎",
+                "updateSuccessComment": "🚀 Rəy uğurla yeniləndi! Sənin fikirlərin təzələndi!",
+                "placeholder": "Yenilənmiş Məzmunu Yazın",
+                "btn": "Rəyi Yenilə",
+                "title": "Rəy Yazın",
+                "title2": "Rəy",
+                "btn2": "Rəy Göndər",
+                "placeholder2": "Rəyi Yazın",
+                "title3": "Rəylər"
+            }
+        },
+        "winningBidsDetail": {
+            "heroSection": {
+                "h1": "Qalib Məhsulun Təfərrüatları",
+                "li1": "İdarə paneli",
+                "li2": "Qalib Məhsulun Təfərrüatları"
+            },
+            "bottomSection": {
+                "box1": {
+                    "title": "Təsvir",
+                    "text": "Təsvir"
+                },
+                "box2": {
+                    "title": "Çatdırılma Seçimləri",
+                    "text": "Çatdırılma",
+                    "table": {
+                        "thead": {
+                            "th1": "Mövcud Çatdırılma Metodları",
+                            "th2": "Qiymət"
+                        },
+                        "tbody": {
+                            "th1": "Müştəri Təhvil Alma (8 gün ərzində)",
+                            "th2": "Standart Çatdırılma (4-7 iş günü)",
+                            "th3": "Müvafiq Deyil",
+                            "th4": "Tələbə Çatdırılma (2-4 iş günü)"
+                        }
+                    },
+                    "note": {
+                        "title": "Qeydlər",
+                        "p": "Zəhmət olmasa, təklifə qoşulmədən əvvəl göndərmə və qaytarılma siyasətimizi diqqətlə oxuyun. Zaman-zaman, və yalnız öz iradəsi ilə, Techbid göndərmə və əlçatan strukturunun cari tariflərini dəyişə bilər."
+                    }
+                },
+                "box3": {
+                    "title": "Təklif Tarixi",
+                    "text": "Təklif Tarixi",
+                    "table": {
+                        "th1": "Təklif Verən",
+                        "th2": "Tarix",
+                        "th3": "Vaxt",
+                        "th4": "Birim Qiymət"
+                    }
+                },
+                "box4": {
+                    "title": "Suallar",
+                    "text": "Tez-tez Verilən Suallar"
+                }
+            },
+            "middleSection": {
+                "left": {
+                    "h5": "Cari Qiymət",
+                    "p1": " Alıcı Premiumu",
+                    "p2": "Təklif Artımı (ABŞ)",
+                    "placeholder": " 🎉' Qələbənizlə təbrik edirik! 🎊'",
+                    "btn": "Təklif Ver",
+                    "btn2": "İndi al",
+                    "btn3": "Favorilərə Əlavə Et",
+                    "text": "Paylaş"
+                },
+                "right": {
+                    "text1": "Qiymət",
+                    "text2": "Məhsul Təfərrüatları",
+                    "electronicType": {
+                        "span1": "Brend",
+                        "span2": "Seriyası",
+                        "span3": "Növü",
+                        "span4": "Elektronika",
+                        "span5": "Rəng",
+                        "span6": " Disk Ölçüsü",
+                        "span7": "CPU Modeli",
+                        "span8": "RAM Yaddaşı"
+                    },
+                    "carType": {
+                        "span1": "Brend",
+                        "span2": "Model",
+                        "span3": "Növü",
+                        "span4": "Avtomobil",
+                        "span5": "Rəng",
+                        "span6": "Yanacaq",
+                        "span7": "İl",
+                        "span8": "Vəziyyət",
+                        "span9": "Mühərriki",
+                        "span10": "Transmissiya",
+                        "span11": "Yol",
+                        "span12": "Qapılar"
+                    },
+                    "jewelryType": {
+                        "span": "Çəki",
+                        "span2": "Təmizlik",
+                        "span3": "Növü",
+                        "span4": "Mücevher",
+                        "span5": "Dəyərli Daş",
+                        "span6": "Metal Növü",
+                        "span7": "Məkan Növü",
+                        "span8": "Dəyərli Daş Rəngi",
+                        "span9": "Uzunluq",
+                        "span10": "En",
+                        "span11": "Hündürlük"
+                    },
+                    "btn": "Təklif Ver",
+                    "text3": "Bu Müsabiqə sona çatır",
+                    "text4": "  🎉 'Qələbənizlə təbrik edirik! 🎊'",
+                    "text5": "İzləmə",
+                    "text6": "Cəmi Təkliflər"
+                }
+            }
+        },
+        "productDetail": {
+            "heroSection": {
+                "h1": "Məhsul Təfərrüatları",
+                "li1": "Əsas Səhifə",
+                "li2": "Məhsul Təfərrüatları"
+            },
+            "middleSection": {
+                "left": {
+                    "h5": "Cari Qiymət",
+                    "p1": " Alıcı Premiumu",
+                    "p2": "Təklif Artımı (ABŞ)",
+                    "placeholder": "Sizə aiddiyyatı olan məbləği daxil edin",
+                    "btn": "Təklif Ver",
+                    "btn2": "İndi Al",
+                    "btn3": "Favorilərə Əlavə Et",
+                    "text": "Paylaş",
+                    "basketErrorText1": "Məhsul artıq səbətdədir",
+                    "basketErrorText2": "Ups! Görünür, hesabınıza daxil olmamısınız. Səbətinizə giriş üçün hesabınıza daxil olun.",
+                    "basketSuccessMessage": "Məhsul səbətə əlavə edildi",
+                    "wishlistErrorMessage1": "Məhsul artıq arzu siyahısındadır",
+                    "wishlistSuccessMessage": "Məhsul arzu siyahısına əlavə edildi",
+                    "wishlistErrorMessage2": "Ups! Görünür, hesabınıza daxil olmamısınız. Arzu siyahınıza giriş üçün hesabınıza daxil olun."
+                },
+                "right": {
+                    "text1": "Qiymət",
+                    "text2": "Məhsul Təfərrüatları",
+                    "electronicType": {
+                        "span1": "Brend",
+                        "span2": "Seriyası",
+                        "span3": "Növü",
+                        "span4": "Elektronika",
+                        "span5": "Rəng",
+                        "span6": "Sabit Disk Ölçüsü",
+                        "span7": "CPU Modeli",
+                        "span8": "RAM Yaddaşı"
+                    },
+                    "carType": {
+                        "span1": "Brend",
+                        "span2": "Model",
+                        "span3": "Növü",
+                        "span4": "Avtomobil",
+                        "span5": "Rəng",
+                        "span6": "Yanacaq",
+                        "span7": "İl",
+                        "span8": "Vəziyyət",
+                        "span9": "Mühərriki",
+                        "span10": "Transmissiya",
+                        "span11": "Yol",
+                        "span12": "Qapılar"
+                    },
+                    "jewelryType": {
+                        "span": "Çəki",
+                        "span2": "Təmizlik",
+                        "span3": "Növü",
+                        "span4": "Mücevher",
+                        "span5": "Dəyərli Daş",
+                        "span6": "Metal Növü",
+                        "span7": "Məkan Növü",
+                        "span8": "Dəyərli Daş Rəngi",
+                        "span9": "Uzunluq",
+                        "span10": "En",
+                        "span11": "Hündürlük"
+                    },
+                    "btn": "Təklif Ver",
+                    "text3": "Bu Müsabiqə sona çatır",
+                    "text4": "  🎉 'Qələbənizlə təbrik edirik! 🎊'",
+                    "text5": "İzləmə",
+                    "text6": "Cəmi Təkliflər",
+                    "bidAddErrorMessage": "Zəhmət olmasa, bir təklif əlavə etmədən əvvəl hesabınıza daxil olun.",
+                    "bidAddErrorMessage1": "Zəhmət olmasa, bir təklif əlavə etmədən əvvəl hesabınıza daxil olun.",
+                    "bidAddSuccessMessage": "Sizin təklifiniz əlavə olundu",
+                    "bidAddSuccessMessage1": "Sizin təklifiniz əlavə olundu",
+                    "minBidText": "Minimum təklif qiyməti $"
+                }
+            },
+            "bottomSection": {
+                "box1": {
+                    "title": "Təsvir",
+                    "text": "Təsvir"
+                },
+                "box2": {
+                    "title": "Çatdırılma Seçimləri",
+                    "text": "Göndərmə",
+                    "table": {
+                        "thead": {
+                            "th1": "Mövcud Çatdırılma Metodları",
+                            "th2": "Qiymət"
+                        },
+                        "tbody": {
+                            "th1": "Müştəri Təhvil Alma (8 gün ərzində)",
+                            "th2": "Standart Göndərmə (4-7 iş günü)",
+                            "th3": "Müvafiq Deyil",
+                            "th4": "Tələbə Göndərmə (2-4 iş günü)"
+                        }
+                    },
+                    "note": {
+                        "title": "Qeydlər",
+                        "p": "Zəhmət olmasa, təklifə qoşulmədən əvvəl göndərmə və qaytarılma siyasətimizi diqqətlə oxuyun. Zaman-zaman, və yalnız öz iradəsi ilə, Techbid göndərmə və əlçatan strukturunun cari tariflərini dəyişə bilər."
+                    }
+                },
+                "box3": {
+                    "title": "Təklif Tarixi",
+                    "text": "Təklif Tarixi",
+                    "table": {
+                        "th1": "Təklif Verən",
+                        "th2": "Tarix",
+                        "th3": "Vaxt",
+                        "th4": "Birim Qiymət"
+                    },
+                    "emptyText": "Hələ bu məhsula heç bir təklif verilməyib."
+                },
+                "box4": {
+                    "title": "Sualar",
+                    "text": "Tez-tez Verilən Suallar"
+                }
+            }
+        }
+    },
+    "footer": {}
+}

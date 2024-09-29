@@ -1,0 +1,103 @@
+.winnerDetail {
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, sans-serif;
+
+    .winnerDetailInside {
+        background: #000000;
+        padding: 1.875rem 1.75rem;
+        width: 100%;
+        flex-grow: 1;
+
+        .container {
+            .row {
+                .col-md-6 {
+                    display: flex;
+                    align-items: stretch;
+                    margin-bottom: 1.5rem;
+                    justify-content: stretch;
+
+                    .winnerDetailInsideCard {
+                        width: 100%;
+                        min-width: 100%;
+                        border-radius: 0.25rem;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        word-wrap: break-word;
+                        background-color: #191c24;
+                        background-clip: border-box;
+                        border: 1px solid rgba(0, 0, 0, 0.125);
+
+                        .winnerDetailInsideCardBox {
+                            padding: 1.75rem 1.5625rem;
+                            flex: 1 1 auto;
+                            min-height: 1px;
+
+                            .winnerDetailInsideBoxTop {
+                                display: flex;
+                                align-items: center;
+
+                                img {
+                                    width: 150px;
+                                    height: 150px;
+                                }
+
+                          
+                            }
+
+                            .winnerDetailInsideBoxBottom {
+                                margin-top: 22px;
+
+                                .winnerTitle {
+                                    color: #6c7293 !important;
+                                    font-size: 17px;
+                                }
+
+                           
+                            }
+
+                            .goBackWinnerBtn {
+                                margin-top: 10px;
+                                    a {
+                                        color: #6c7293 !important;
+
+                                    }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.MuiRating-iconEmpty {
+    color: #6c72936e !important;
+
+}
+
+@media screen and (max-width:500px) {
+    .winnerDetailInside {
+        padding: 1.875rem 0.75rem !important;
+
+    }
+}
+
+.winnerDetailSpinner {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:400px) {
+    .winnerDetailInside {
+        padding: 1.875rem 0.5rem !important;
+
+    }
+}

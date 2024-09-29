@@ -1,0 +1,1209 @@
+.productDetailMiddle {
+    background: #000036;
+    padding-top: 120px;
+
+    .container {
+        .row {
+            .col-xl-7 {
+                .productDetailMiddleLeft {
+                    position: relative;
+
+                    .productDetailSwiper {
+                        position: relative;
+
+                        .mySwiper5 {
+                            overflow: hidden !important;
+                            margin-bottom: 30px !important;
+
+                            .mySwiper5__slide {
+                                background: #242471 !important;
+                                padding: 30px !important;
+                                text-align: center !important;
+                                border-radius: 10px !important;
+                                border: 1px solid #6d69f4 !important;
+
+                                .detailSwiperInside1 {
+                                    max-width: 618px;
+                                    height: 450px;
+                                    margin: 0 auto;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+
+                        .sliderBottomBox {
+                            margin: 0 60px !important;
+
+                            .mySwiper7 {
+                                position: relative !important;
+                                overflow: hidden !important;
+
+                                .swiper-button-next {
+                                    position: absolute !important;
+                                    top: 50% !important;
+                                    width: 27px !important;
+                                    height: 44px !important;
+                                    margin-top: -22px !important;
+                                    z-index: 10 !important;
+                                    cursor: pointer !important;
+                                    background-size: 25px 25px;
+                                    background-position: center !important;
+                                    background-repeat: no-repeat !important;
+                                    transform: rotate(180deg) !important;
+                                    background-image: url('../../../assets/arrowForSlide.png');
+                                    right: 10px !important;
+                                    left: auto !important;
+
+                                    &::after {
+                                        content: none !important;
+                                    }
+                                }
+
+                                .swiper-button-prev {
+                                    position: absolute !important;
+                                    top: 50% !important;
+                                    width: 27px !important;
+                                    height: 44px !important;
+                                    margin-top: -22px !important;
+                                    z-index: 10 !important;
+                                    cursor: pointer !important;
+                                    background-size: 25px 25px;
+                                    background-position: center !important;
+                                    background-repeat: no-repeat !important;
+                                    background-image: url('../../../assets/arrowForSlide.png');
+                                    right: auto !important;
+                                    left: 10px !important;
+
+                                    &::after {
+                                        content: none !important;
+                                    }
+                                }
+
+                                .mySwiper7__slide {
+                                    padding: 10px !important;
+                                    text-align: center !important;
+                                    border-radius: 10px !important;
+                                    height: 90px !important;
+                                    background: #242471 !important;
+                                    border: 1px solid #6d69f4 !important;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: contain;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .detailAboutPrice {
+                        margin-top: 45px;
+                        margin-bottom: 45px;
+
+                        h3 {
+                            font-size: 43px;
+                            line-height: 57px;
+                            font-family: "Poppins", sans-serif !important;
+                            margin-bottom: 40px !important;
+                            color: white;
+                            font-weight: 500;
+                        }
+
+                        ul {
+                            margin: 0;
+                            border: 1px solid #6d69f4;
+                            border-radius: 10px;
+                            padding: 25px 25px 20px;
+
+                            li {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                &:not(:last-child) {
+                                    margin-bottom: 10px;
+                                }
+
+                                .aboutPriceTitle {
+                                    font-size: 24px;
+                                    line-height: 31.2px;
+                                    margin-top: -3px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    line-height: 0;
+                                    color: white;
+                                }
+
+                                .bluePrice {
+                                    font-size: 32px;
+                                    line-height: 55.2px;
+                                    margin-top: -15px;
+                                    color: #03d6f9;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+
+                                .detailAboutPriceP {
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    color: white;
+                                    margin-bottom: 0;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+
+                                .detailAboutPriceH {
+                                    font-size: 24px;
+                                    line-height: 31.2px;
+                                    margin-top: -3px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    line-height: 0;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+
+                    .detailPriceInput {
+                        padding: 30px 0;
+                        border-top: 1px solid #505089;
+                        border-bottom: 1px solid #505089;
+                        margin-bottom: 40px;
+
+                        form {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .detailBtn {
+                                width: 35%;
+                                margin-left: 15px;
+                                border: none;
+                                cursor: pointer;
+                                border-radius: 10px;
+                                padding: 15px 40px 17px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                display: inline-block;
+                                color: white;
+                                text-transform: capitalize;
+                                transition: all 0.3s;
+                                background: #4934d3;
+                                position: relative;
+                                overflow: hidden;
+                                z-index: 1;
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 100%;
+                                    left: 100%;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #242471;
+                                    transition: all 0.6s;
+                                    z-index: -1;
+                                }
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: -2;
+                                }
+
+                                &:hover::before {
+                                    bottom: 0;
+                                    left: 0;
+                                }
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+
+                            input {
+                                width: 100%;
+                                outline: none;
+                                background-color: transparent;
+                                border: 1px solid #6d69f4;
+                                border-radius: 5px;
+                                padding: 14px 15px;
+                                color: white;
+
+                                &::placeholder {
+                                    color: #b0bcde;
+                                }
+                            }
+                        }
+                    }
+
+                    .detailButtonsBottom {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .detailButtonsBottomLeft {
+                            display: flex;
+                            align-items: center;
+
+                            .butNow {
+                                border: none;
+                                cursor: pointer;
+                                border-radius: 10px;
+                                margin-right: 20px;
+                                padding: 12px 22px 12px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                display: inline-block;
+                                color: white;
+                                text-transform: capitalize;
+                                transition: all 0.3s;
+                                background: #4934d3;
+                                position: relative;
+                                overflow: hidden;
+                                z-index: 1;
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 100%;
+                                    left: 100%;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #242471;
+                                    transition: all 0.6s;
+                                    z-index: -1;
+                                }
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: -2;
+                                }
+
+                                &:hover::before {
+                                    bottom: 0;
+                                    left: 0;
+                                }
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+
+                            .wishlistBtn {
+                                border-radius: 10px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                display: inline-block;
+
+                                color: white;
+                                text-transform: capitalize;
+                                border: 1px solid#4934d3;
+                                transition: all 0.3s;
+                                padding: 12px 22px 12px;
+                                background: transparent;
+                                position: relative;
+                                z-index: 1;
+
+                                &:hover {
+                                    background-color: #4934d3;
+                                }
+                            }
+                        }
+
+                        .detailButtonsBottomRight {
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            align-items: center;
+
+                            li {
+                                &:not(:last-child) {
+                                    margin-right: 12px;
+                                }
+
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    color: white;
+                                    margin-bottom: 0;
+                                }
+
+                                .detailIcon {
+                                    width: 34px;
+                                    height: 34px;
+                                    line-height: 34px;
+                                    text-align: center;
+                                    border-radius: 50%;
+                                    border: 1px solid#546181;
+                                    display: block;
+                                    transition: all 0.3s;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    &:hover {
+                                        background: #4934d3;
+                                        border-color: #4934d3;
+                                        cursor: pointer;
+                                    }
+
+                                    a {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+
+                                        svg {
+                                            color: white;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-xl-5 {
+                .productDetailMiddleRight {
+                    .productDetailMiddleRightTop {
+                        border-radius: 10px;
+                        border: 1px solid #6d69f4;
+                        background: #101046;
+
+                        padding: 25px 25px;
+
+                        h5 {
+                            font-size: 24px;
+                            line-height: 31.2px;
+                            margin-bottom: 25px;
+                            margin-top: -3px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                        .productDetailRating {
+                            margin-bottom: 25px;
+                        }
+
+                        .productDetailLeftPrice {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .productDetailLeftPriceLeft {
+                                display: flex;
+                                align-items: center;
+
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    color: white;
+                                    margin-bottom: 0;
+                                    margin-right: 15px;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+
+                                h4 {
+                                    font-size: 32px;
+                                    line-height: 55.2px;
+                                    margin-top: -15px;
+                                    margin: 0;
+                                    font-family: "Poppins", sans-serif !important;
+                                    color: #03d6f9;
+                                    font-weight: 500;
+                                }
+                            }
+
+                            .productDetailLeftPriceRight {
+
+                                .detailIncreaseDecrease {
+                                    margin: 0 auto;
+                                    position: relative;
+
+                                    .decreaseDetail {
+                                        height: 40px;
+                                        width: 40px;
+                                        border-radius: 50%;
+                                        background: #242471;
+                                        cursor: pointer;
+                                        float: inherit;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        line-height: 40px;
+                                        margin: 0;
+                                        border: none;
+                                        outline: none;
+                                        text-align: center;
+                                        color: white;
+                                        transition: all 0.3s ease 0s;
+
+                                        &:hover {
+                                            background: #4934d3;
+                                        }
+                                    }
+
+                                    .counterDetail {
+                                        background: transparent none repeat scroll 0 0;
+                                        color: white;
+                                        font-size: 14px;
+                                        height: 40px;
+                                        margin: 0 10px;
+                                        padding: 0 9px 0 0;
+                                        text-align: center;
+                                        width: 80px;
+                                        border: 2px solid#6d69f4;
+                                        border-radius: 30px;
+                                        outline: none;
+                                    }
+
+                                    .increaseDetail {
+                                        height: 40px;
+                                        width: 40px;
+                                        border-radius: 50%;
+                                        background: #242471;
+                                        cursor: pointer;
+                                        float: inherit;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        line-height: 40px;
+                                        margin: 0;
+                                        border: none;
+                                        outline: none;
+                                        text-align: center;
+                                        color: white;
+                                        transition: all 0.3s ease 0s;
+
+                                        &:hover {
+                                            background: #4934d3;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .productDetailLeftAbout {
+                            margin-top: 30px;
+
+                            h5 {
+                                font-size: 24px;
+                                line-height: 31.2px;
+                                margin-top: -3px;
+                                font-family: "Poppins", sans-serif !important;
+                                margin-bottom: 25px;
+                                color: white;
+                            }
+
+                            .detailAboutLeft {
+                                margin: 0;
+                                padding: 0;
+
+                                li {
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 18px;
+                                    color: white;
+
+                                    &:not(:last-child) {
+                                        margin-bottom: 12px;
+                                    }
+
+                                    .aboutDetLeft {
+                                        min-width: 128px;
+                                        position: relative;
+                                        display: block;
+                                        margin-right: 20px;
+
+                                        &::after {
+                                            position: absolute;
+                                            content: ":";
+                                            right: 0;
+                                            top: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .productDetailLeftBtn {
+                            transform: translateY(55px);
+                            margin: -25px auto 0;
+                            text-align: center;
+
+                            button {
+                                border-radius: 10px;
+                                padding: 15px 40px 17px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                display: inline-block;
+                                text-transform: capitalize;
+                                transition: all 0.3s;
+                                position: relative;
+                                border: none;
+                                outline: none;
+                                overflow: hidden;
+                                z-index: 1;
+                                color: white;
+                                background: #4934d3;
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 100%;
+                                    left: 100%;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #242471;
+                                    transition: all 0.6s;
+                                    z-index: -1;
+                                }
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: -2;
+                                }
+
+                                &:hover::before {
+                                    bottom: 0;
+                                    left: 0;
+                                }
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+
+                    .productDetailMiddleRightBottom {
+                        border-radius: 10px;
+                        border: 1px solid #6d69f4;
+                        background: #101046;
+                        padding: 25px 25px;
+                        margin-top: 55px;
+
+                        .auctionEndP {
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: white;
+                            text-align: center;
+                            margin-bottom: 11px;
+                            font-family: "Poppins", sans-serif !important;
+                        }
+
+                        .endTimeBox {
+
+                            ul {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-bottom: 1px solid #9276d7;
+                                padding-bottom: 20px !important;
+                                padding: 0;
+                                margin: 0;
+
+                                li {
+                                    position: relative;
+                                    display: block;
+                                    padding-right: 25px;
+                                    line-height: 0px;
+                                    margin-bottom: 0;
+                                    color: #fa8fc1;
+
+                                    &:not(:last-child) {
+                                        margin-right: 15px;
+
+                                        &::after {
+                                            position: absolute;
+                                            content: ":";
+                                            right: 0;
+                                            line-height: 57px;
+                                            margin-top: -5px;
+                                            top: 0;
+                                            font-size: 43px;
+                                        }
+                                    }
+
+                                    .hoursEndTime,
+                                    .minutesEndTime,
+                                    .secondEndTime {
+                                        font-size: 43px;
+                                        line-height: 57px;
+                                        color: #fa8fc1;
+                                        margin-bottom: 0;
+                                        font-family: "Poppins", sans-serif !important;
+                                        font-weight: 500;
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .detailPageOdometer {
+                            margin: 0;
+                            padding: 0;
+                            margin-top: 30px !important;
+
+                            li {
+                                &:not(:last-child) {
+                                    margin-bottom: 20px;
+                                }
+
+                                display: flex;
+                                align-items: center;
+
+                                .detailPageOdometerIcon {
+                                    margin-right: 24px;
+                                }
+
+                                .detailPageOdometerRight {
+                                    .detailPageOdometerRightInside {
+                                        .detailOdoMeterCount {
+                                            margin-bottom: -8px;
+                                            font-size: 32px;
+                                            line-height: 55.2px;
+                                            margin-top: -15px;
+                                            font-family: "Poppins", sans-serif !important;
+                                            color: white;
+                                            font-weight: 500 !important;
+                                        }
+
+                                        p {
+                                            font-size: 18px;
+                                            line-height: 30px;
+                                            color: white;
+                                            font-family: "Poppins", sans-serif !important;
+                                            margin-bottom: 0;
+                                            margin-top: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .detailPriceInput {
+        form {
+            input {
+                width: 100%;
+            }
+
+            .detailBtn {
+                width: 40% !important;
+                margin-left: 15px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .productDetailMiddleLeft {
+        margin-bottom: 35px !important;
+    }
+
+    .productDetailMiddleRightTop {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .productDetailLeftAbout {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .endTimeBox {
+
+        ul {
+
+            li {
+
+                &:not(:last-child) {
+
+                    &::after {
+                        position: absolute !important;
+                        content: ":" !important;
+                        right: 0 !important;
+                        line-height: 57px !important;
+                        margin-top: -8px !important;
+                        top: 0 !important;
+                        font-size: 43px !important;
+                    }
+                }
+
+                .hoursEndTime,
+                .minutesEndTime,
+                .secondEndTime {
+                    font-size: 38px !important;
+                    line-height: 49px !important;
+                }
+            }
+        }
+    }
+
+    .detailAboutPrice {
+        h3 {
+
+            font-size: 38px !important;
+            line-height: 49px !important;
+        }
+
+        ul {
+            li {
+                h5 {
+                    font-size: 22px !important;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .productDetailMiddle {
+        padding-top: 80px !important;
+    }
+
+    .detailPageOdometerRightInside {
+        .detailOdoMeterCount {
+            font-size: 29px !important;
+            line-height: 50.2px !important;
+        }
+    }
+
+    .endTimeBox {
+
+        ul {
+
+            li {
+
+                &:not(:last-child) {
+
+                    &::after {
+                        position: absolute !important;
+                        content: ":" !important;
+                        right: 0 !important;
+                        margin-top: -8px !important;
+                        top: 0 !important;
+                        font-size: 30px !important;
+                    }
+                }
+
+                .hoursEndTime,
+                .minutesEndTime,
+                .secondEndTime {
+                    font-size: 34px !important;
+                    line-height: 42px !important;
+                }
+            }
+        }
+    }
+
+    .productDetailLeftPriceLeft {
+        h4 {
+            font-size: 29px !important;
+            line-height: 50.2px !important;
+        }
+    }
+
+    .detailAboutPrice {
+        h3 {
+
+            font-size: 34px !important;
+            line-height: 42px !important;
+        }
+
+        ul {
+            li {
+                h4 {
+                    font-size: 29px !important;
+                    line-height: 50.2px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .productDetailMiddle {
+        padding-top: 70px !important;
+    }
+
+    .detailPageOdometerRightInside {
+        .detailOdoMeterCount {
+            font-size: 26px !important;
+            line-height: 42.2px !important;
+        }
+    }
+
+    .productDetailMiddleRightTop {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .productDetailLeftAbout {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .productDetailLeftPriceLeft {
+        h4 {
+            font-size: 26px !important;
+            line-height: 42.2px !important;
+        }
+    }
+
+    .mySwiper5 {
+        margin-bottom: 30px !important;
+
+        .mySwiper5__slide {
+            padding: 30px !important;
+
+            .detailSwiperInside1 {
+                max-width: 618px !important;
+                height: 405px !important;
+                margin: 0 auto !important;
+
+                img {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+
+    .detailAboutPrice {
+        margin-top: 35px !important;
+
+        ul {
+            li {
+                h5 {
+                    font-size: 19px !important;
+
+                }
+
+                h4 {
+                    font-size: 26px !important;
+                    line-height: 42.2px !important;
+                }
+            }
+        }
+    }
+
+    .detailPriceInput {
+        form {
+            input {
+                width: 100%;
+            }
+
+            .detailBtn {
+                width: 60% !important;
+                margin-left: 15px !important;
+            }
+        }
+    }
+
+    .detailButtonsBottom {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        flex-wrap: wrap !important;
+
+        .detailButtonsBottomLeft {
+            display: flex !important;
+            align-items: center !important;
+            margin-bottom: 15px !important;
+
+            .butNow {
+                margin-right: 10px !important;
+                padding: 12px 15px 12px !important;
+                font-size: 14px !important;
+            }
+
+            .wishlistBtn {
+                padding: 12px 15px 12px !important;
+                font-size: 14px !important;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .productDetailMiddle {
+        padding-top: 60px !important;
+    }
+
+    .mySwiper5 {
+        .mySwiper5__slide {
+            .detailSwiperInside1 {
+                max-width: 618px !important;
+                height: 300px !important;
+
+            }
+        }
+    }
+
+    .detailPageOdometerRightInside {
+        .detailOdoMeterCount {
+            font-size: 22px !important;
+            line-height: 38.2px !important;
+        }
+    }
+
+    .detailPriceInput {
+        form {
+            display: flex !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+
+            input {
+                width: 100%;
+            }
+
+            .detailBtn {
+                width: 100% !important;
+                margin-left: 0px !important;
+                margin-top: 12px !important;
+            }
+        }
+    }
+
+    .detailAboutPrice {
+        h3 {
+
+            font-size: 30px !important;
+            line-height: 38px !important;
+        }
+
+        ul {
+            li {
+                h4 {
+                    font-size: 22px !important;
+                    line-height: 38.2px !important;
+                }
+            }
+        }
+    }
+
+    .productDetailLeftPriceLeft {
+        h4 {
+            font-size: 22px !important;
+            line-height: 38.2px !important;
+        }
+    }
+
+    .endTimeBox {
+
+        ul {
+
+            li {
+
+                &:not(:last-child) {
+
+                    &::after {
+                        position: absolute !important;
+                        content: ":" !important;
+                        right: 0 !important;
+                        margin-top: -12px !important;
+                        top: 0 !important;
+                        font-size: 30px !important;
+                    }
+                }
+
+                .hoursEndTime,
+                .minutesEndTime,
+                .secondEndTime {
+                    font-size: 30px !important;
+                    line-height: 38px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .detailAboutPrice {
+        ul {
+            li {
+                h5 {
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+
+    .productDetailMiddleRightTop {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+
+    .productDetailLeftAbout {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .productDetailMiddle {
+        padding-top: 60px !important;
+    }
+
+    .auctionEndP {
+        font-size: 16px !important;
+    }
+
+    .detailButtonsBottomRight {
+        li {
+            p {
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .productDetailMiddleRightTop {
+        padding: 25px 15px !important;
+    }
+
+    .detailPageOdometerRightInside {
+        p {
+            font-size: 16px !important;
+        }
+
+        .detailOdoMeterCount {
+            font-size: 19px !important;
+            line-height: 30.2px !important;
+        }
+    }
+
+    .productDetailMiddleRightTop {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+
+    .productDetailLeftAbout {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+
+    .productDetailLeftPrice {
+        flex-wrap: wrap !important;
+
+        .productDetailLeftPriceLeft {
+            width: 100% !important;
+            margin-bottom: 10px !important;
+
+            h4 {
+                font-size: 19px !important;
+                line-height: 30.2px !important;
+            }
+
+            p {
+                font-size: 16px !important;
+            }
+        }
+
+    }
+
+    .mySwiper5 {
+        .mySwiper5__slide {
+            .detailSwiperInside1 {
+                max-width: 618px !important;
+                height: 200px !important;
+
+            }
+        }
+    }
+
+    .mySwiper7 {
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            background-size: 20px 20px !important;
+
+        }
+    }
+
+    .detailAboutPrice {
+        h3 {
+            font-size: 26px !important;
+            line-height: 35px !important;
+            font-weight: 600 !important;
+        }
+
+        ul {
+            li {
+                h5 {
+                    font-size: 18px !important;
+                }
+
+                h4 {
+                    font-size: 19px !important;
+                    line-height: 30.2px !important;
+                }
+
+                p {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .endTimeBox {
+
+        ul {
+
+            li {
+
+                .hoursEndTime,
+                .minutesEndTime,
+                .secondEndTime {
+                    font-size: 26px !important;
+                    line-height: 35px !important;
+                    font-weight: 600 !important;
+                }
+            }
+        }
+    }
+}

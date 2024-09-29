@@ -1,0 +1,15 @@
+.deleteBtnWinner:hover .deleteBtnWinner1 {
+    display: none;
+    transition: 1s linear;
+
+}
+
+.deleteBtnWinner:hover .deleteBtnWinner2 {
+    display: block;
+    transition: 1s linear;
+
+}
+
+.deleteBtnWinner2 {
+    display: none;
+}

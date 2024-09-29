@@ -1,0 +1,216 @@
+.gmailModal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 24, 81, 0.9);
+    overflow-y: auto;
+    z-index: 999999;
+    opacity: 0;
+    visibility: hidden;
+
+    .gmailModalBox {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: 4em auto;
+        overflow-y: auto;
+        background: #101046;
+        transition-duration: 0.3s;
+        padding: 30px 30px;
+        border: 1px solid #6d69f4;
+        border-radius: 10px;
+
+        .closeBtn {
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 22px;
+
+            svg {
+                color: white;
+            }
+        }
+
+        .gmailModalBoxInside {
+            .gmailModalBoxInsideTop {
+                text-align: center;
+                margin-bottom: 45px;
+
+                h4 {
+                    font-size: 32px;
+                    line-height: 55.2px;
+                    margin-top: -15px;
+                    color: white;
+                    font-family: "Poppins", sans-serif !important;
+                    margin-bottom: 5px;
+                }
+
+          
+            }
+
+            .gmailModalBoxInsideBottom {
+                .gmailModalBoxInsideItem {
+                    &:not(:last-child) {
+                        margin-bottom: 25px;
+                    }
+
+                    .gmailBtn {
+                        padding: 12px 15px;
+                        text-align: center;
+                        width: 100%;
+                        border: 1px solid #4934d3;
+
+
+                        border-radius: 10px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        display: inline-block;
+                        color: white;
+                        text-transform: capitalize;
+                        transition: all 0.3s;
+                        background: #4934d3;
+                        position: relative;
+                        overflow: hidden;
+                        z-index: 1;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: transparent;
+                            border: 1px solid #6d69f4;
+                        }
+
+                        &:hover::before {
+                            bottom: 0;
+                            left: 0;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -2;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            bottom: 100%;
+                            left: 100%;
+                            width: 100%;
+                            height: 100%;
+                            background-color: #242471;
+                            transition: all 0.6s;
+                            z-index: -1;
+                        }
+                    }
+
+                    .gmailModalBoxItemInside {
+                        position: relative;
+                        width: 100%;
+
+
+                      
+
+                        label {
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: "Poppins", sans-serif;
+                            margin-bottom: 0.5rem;
+                            color: white;
+                        }
+
+                        input,
+                        select {
+                            position: relative;
+                            outline: none;
+                            background: transparent;
+                            color: white;
+                            border-radius: 5px;
+                            border: 1px solid #6d69f4;
+                            width: 100%;
+                            font-size: 16px;
+                            font-weight: 500;
+                            padding: 14px 20px;
+
+                            option {
+
+                                background-color: #101046;
+                            }
+
+                            &::placeholder {
+                                color: #b0bcde;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.gmailUpdateOpen {
+    opacity: 1 !important;
+    visibility: visible !important;
+
+}
+
+@media screen and (max-width: 991px) {
+    .gmailModalBoxInsideTop {
+        h4 {
+            font-size: 29px !important;
+            line-height: 50.2px !important;
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .gmailModalBoxInsideTop {
+        h4 {
+            font-size: 26px !important;
+            line-height: 42.2px !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .gmailModalBoxInsideTop {
+        h4 {
+            font-size: 22px !important;
+            line-height: 38.2px !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gmailModalBox {
+        padding: 25px 15px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .closeBtn {
+        font-size: 19px !important;
+    }
+
+    .gmailModalBoxInsideTop {
+        h4 {
+            font-size: 19px !important;
+            line-height: 30.2px !important;
+        }
+
+   
+    }
+}

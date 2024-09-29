@@ -1,0 +1,217 @@
+.notFound {
+    background: url('https://pixner.net/techbid/techbid/assets/img/error/bg.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    .cosmonaft1 {
+        max-width: 570px;
+        animation: updownnew 8s linear infinite;
+        animation-delay: 0.2s;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .cosmonaft2 {
+        max-width: 570px;
+        animation: cosmonaft 8s linear infinite;
+        animation-delay: 0.2s;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container {
+        .row {
+            .col-lg-8 {
+                .notFoundInside {
+                    .notFoundInsideTop {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .notFoundInsideBottom {
+                        text-align: center;
+                        margin: 45px auto 0;
+
+                        h3 {
+                            font-size: 49px;
+                            margin-bottom: 25px;
+                            line-height: 60px;
+                            font-weight: 500;
+                            color: white;
+                            font-family: "Poppins", sans-serif !important;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            line-height: 30px;
+                            font-family: "Poppins", sans-serif !important;
+                            margin-bottom: 40px;
+                            color: white;
+                        }
+
+                        .goBack {
+                            border-radius: 10px;
+                            padding: 15px 40px 17px;
+                            font-size: 18px;
+                            font-weight: 500;
+                            display: inline-block;
+                            color: white;
+                            text-transform: capitalize;
+                            transition: all 0.3s;
+                            background: #4934d3;
+                            position: relative;
+                            overflow: hidden;
+                            z-index: 1;
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                z-index: -2;
+                            }
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                bottom: 100%;
+                                left: 100%;
+                                width: 100%;
+                                height: 100%;
+                                background-color: #242471;
+                                transition: all 0.6s;
+                                z-index: -1;
+                            }
+
+                            &:hover {
+                                color: white;
+
+                                &::before {
+                                    left: 0;
+                                    bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes cosmonaft {
+    0% {
+        transform: translateY(0%);
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateY(-10%);
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes updownnew {
+    0% {
+        transform: translateY(0%);
+    }
+
+    20% {
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cosmonaft1 {
+        max-width: 350px !important;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .cosmonaft2 {
+        max-width: 350px !important;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .cosmonaft1,
+    .cosmonaft2 {
+        display: none !important;
+    }
+
+    .notFoundInsideBottom {
+        margin: 40px auto 0 !important;
+
+        p {
+            margin-bottom: 35px !important;
+        }
+
+        h3 {
+            font-size: 42px !important;
+            margin-bottom: 20px !important;
+            line-height: 60px !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    .notFoundInsideBottom {
+        margin: 40px auto 0 !important;
+
+        p {
+            margin-bottom: 30px !important;
+        }
+
+        h3 {
+            font-size: 38px !important;
+            margin-bottom: 15px !important;
+            line-height: 50px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .notFoundInsideBottom {
+        p {
+            font-size: 16px !important;
+        }
+
+        h3 {
+            font-weight: 600 !important;
+        }
+    }
+}

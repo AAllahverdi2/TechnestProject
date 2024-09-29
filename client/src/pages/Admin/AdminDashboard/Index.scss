@@ -1,0 +1,262 @@
+.adminDashboard {
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, sans-serif;
+
+    .adminDashboardBox {
+        background: #000000;
+        padding: 1.875rem 1.75rem;
+        width: 100%;
+        flex-grow: 1;
+
+        .row {
+            .col-lg-12 {
+                .todoCard {
+                    padding-right: 1rem !important;
+                    padding-left: 1rem !important;
+                    background: #191c24;
+                    border-radius: 0.25rem;
+
+                    .card-body {
+                        padding: 1.75rem 1.5625rem ;
+                        flex: 1 1 auto;
+                        color: var(--bs-card-color);
+
+                        .todoTitle {
+                            color: #ffffff;
+                            margin-bottom: 1.125rem;
+                            text-transform: capitalize;
+                            font-size: 1.125rem;
+                            font-weight: 500;
+                        }
+
+                        .addBoxInAdminDash {
+                            margin-bottom: 1.5rem;
+                            overflow: hidden;
+                            display: flex;
+
+                            input {
+                                border-top-right-radius: 0;
+                                border-bottom-right-radius: 0;
+                                width: 100%;
+                                background: transparent;
+
+                                height: 2.575rem;
+                                border: 1px solid #2c2e33;
+                                font-weight: normal;
+                                font-size: 0.875rem;
+                                padding: 0.625rem 0.6875rem;
+                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                                line-height: 1;
+                                display: block;
+                                border-radius: 2px;
+                                color: #ffffff;
+
+                                &::placeholder {
+                                    color: #6C7293;
+                                }
+
+                                &:focus {
+                                    border: 1px solid rgba(71, 164, 71, 0.5);
+                                    color: #ffffff;
+                                }
+                            }
+
+                            button {
+                                margin-left: 0.5rem;
+                                display: inline-block;
+                                padding: 6px 12px;
+                                margin-bottom: 0;
+                                font-size: 14px;
+                                font-weight: normal;
+                                line-height: 1.42857143;
+                                text-align: center;
+                                white-space: nowrap;
+                                vertical-align: middle;
+                                user-select: none;
+                                background-image: none;
+                                border: 1px solid transparent;
+                                border-radius: 4px;
+                                touch-action: manipulation;
+                                color: #ffffff !important;
+                            }
+                        }
+
+                        .todoList {
+                            height: 100%;
+                            max-height: 100%;
+
+                            .todoReversedList {
+                                padding: 0;
+                                text-align: left;
+                                list-style: none;
+                                margin-bottom: 0;
+                                font-size: 0.875rem;
+
+                                .completeTodo {
+                                    text-decoration: line-through !important;
+                                    text-decoration-color: #0090e7 !important;
+
+                                    .checkedDashboardIn {
+                                        color: rgb(0, 144, 231) !important;
+                                    }
+                                }
+
+                                li {
+                                    &:first-child {
+                                        border-bottom: none;
+                                    }
+
+                                    font-size: 0.9375rem;
+                                    line-height: 1.8;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start !important;
+                                    padding: 0.8rem 0;
+                                    border-bottom: 1px solid #2c2e33;
+
+                                    .listFormInDashboard {
+                                        max-width: 90%;
+                                        margin-top: 0.25rem;
+                                        margin-bottom: 0.25rem;
+
+                                        text-overflow: ellipsis;
+                                        overflow: hidden;
+                                        min-height: 18px;
+                                        padding-left: 1.25rem;
+                                        position: relative;
+                                        display: block;
+                                        white-space: nowrap;
+
+                                        label {
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
+                                            max-width: 100%;
+                                            white-space: nowrap;
+                                            display: block;
+                                            padding-left: 1rem;
+                                            font-size: 0.875rem;
+                                            line-height: 1.5;
+                                            color: #6c7293;
+
+                                            input {
+                                                margin-right: 15px;
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                margin-left: 0;
+                                                margin-top: 0;
+                                                z-index: 1;
+                                                cursor: pointer;
+                                                outline: none;
+                                                outline-width: 0;
+                                                outline-color: transparent;
+                                                outline-style: none;
+                                                opacity: 0;
+                                            }
+
+                                            .helpering {
+                                                &::before {
+                                                    content: "";
+                                                    width: 16px;
+                                                    height: 16px;
+                                                    border-radius: 2px;
+                                                    border: solid #0090e7;
+                                                    border-width: 2px;
+                                                    transition: all;
+                                                    transition-duration: 250ms;
+                                                    position: absolute;
+                                                    top: 2px;
+                                                    left: 0;
+                                                }
+
+                                                &::after {
+                                                    transition: all;
+                                                    transition-duration: 250ms;
+                                                    font-family: Material Design Icons;
+                                                    opacity: 0;
+                                                    transform: scale(0);
+                                                    content: "\f12c";
+                                                    font-size: 0.875rem;
+                                                    font-weight: bold;
+                                                    color: #ffffff;
+                                                    top: 1px;
+                                                    position: absolute;
+                                                    left: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .checkedDashboardIn {
+                                        cursor: pointer;
+                                        font-size: 1.125rem !important;
+                                        font-weight: 600;
+                                        line-height: 20px;
+                                        text-align: center;
+                                        color: rgb(228, 234, 236);
+                                        opacity: 1;
+                                        margin-left: auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.adminDashboardChecked:checked+.helpering::before {
+    background: #0090e7 !important;
+    border-width: 0 !important;
+}
+
+.adminDashboardChecked:checked+.helpering::after {
+    width: 18px !important;
+    opacity: 1 !important;
+    line-height: 18px !important;
+    transform: scale(1) !important;
+    color: black !important;
+}
+
+@media screen and (max-width:991px) {
+    .adminDashboard {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .adminDashboardBox {
+        padding: 1.875rem 0.75rem !important;
+
+    }
+
+    .todoCard {
+
+        .card-body {
+            padding: 1.75rem 1rem !important;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+    .adminDashboardBox {
+        padding: 1.875rem 0.5rem !important;
+
+    }
+    .todoCard {
+
+        .card-body {
+            padding: 1.75rem 0.7rem !important;
+        }
+    }
+}

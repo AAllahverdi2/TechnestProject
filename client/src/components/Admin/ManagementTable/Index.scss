@@ -1,0 +1,108 @@
+.container {
+
+    .row {
+        .spinnerManagement {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .managementTableCol {
+            font-family: Rubik, sans-serif;
+            display: flex;
+            margin-bottom: 1.5rem;
+            align-items: stretch;
+            justify-content: stretch;
+
+            .managementTableColInside {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                border-radius: 0.25rem;
+                width: 100%;
+                min-width: 100%;
+                word-wrap: break-word;
+                background-color: #191c24;
+                background-clip: border-box;
+                border: 1px solid rgba(0, 0, 0, 0.125);
+
+                .managementTableColInsideBox {
+                    flex: 1 1 auto;
+                    min-height: 1px;
+                    padding: 1.75rem 1.5625rem;
+                    .managementPagination {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .resManagementTable {
+                        display: block;
+                        width: 100%;
+                        overflow-x: auto;
+
+                   
+
+                        .table {
+                            color: #6c7293;
+                            background-color: #191c24 !important;
+                            --bs-body-bg: #191c24;
+
+                            tbody {
+                                tr {
+                                    &:not(:last-child) {
+                                        border-bottom: 2px solid #2c2e33;
+                                    }
+
+                                    &:last-child {
+                                        border: none !important;
+                                    }
+
+                                    td {
+                                        vertical-align: middle;
+                                        font-size: 0.875rem;
+                                        line-height: 1;
+                                        white-space: nowrap;
+                                        padding: 0.9375rem;
+                                        color: rgb(108, 114, 147);
+                                        border: 0;
+                                        border-top: 1px solid #2c2e33;
+
+                                        .userImageTestimonials {
+                                            border-radius: 50%;
+                                            width: 40px;
+                                            height: 40px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            thead {
+                                tr {
+                                    th {
+                                        border-top: 0;
+                                        border-bottom-width: 1px;
+                                        font-weight: 500;
+                                        color: #6c7293;
+                                        vertical-align: bottom;
+                                        border-bottom: 2px solid #2c2e33;
+                                        font-size: 0.875rem;
+                                        line-height: 1;
+                                        white-space: nowrap;
+                                        padding: 0.9375rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.MuiPaginationItem-root {
+    color: #fff !important;
+
+}

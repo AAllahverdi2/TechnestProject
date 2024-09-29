@@ -1,0 +1,959 @@
+.blogDetailBottom {
+    position: relative;
+    background-color: #000036;
+
+    .container {
+        .blogDetailBottomInside {
+            border-bottom: 1px solid #9276d7;
+            transform: translateY(-125px);
+            margin-bottom: -124px;
+            padding-bottom: 120px;
+            border-width: 1px;
+
+            .row {
+                .col-xl-8 {
+                    .blogDetailCol {
+                        .blogDetailColBox {
+                            background: #242471;
+                            border-radius: 10px;
+                            border: 1px solid #6d69f4;
+
+                            .blogDetailColBoxTop {
+                                padding: 25px 25px 0;
+
+                                .clock {
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 25px !important;
+                                    margin: 0;
+                                    padding: 0;
+
+                                    li {
+                                        &:not(:last-child) {
+                                            margin-right: 25px;
+                                        }
+
+                                        span {
+                                            padding-left: 5px;
+                                            font-size: 16px;
+                                            color: white;
+                                        }
+                                    }
+                                }
+
+                                h3 {
+                                    font-size: 43px;
+                                    line-height: 57px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    color: white;
+                                    margin-bottom: 15px;
+                                }
+
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    color: white;
+                                    margin-bottom: 0;
+                                    font-family: "Poppins", sans-serif !important;
+                                }
+                            }
+
+                            .blogDetailColBoxMiddle {
+                                padding: 40px 25px;
+
+                                .row {
+                                    .col-lg-2 {
+                                        .blogDetailMiddleCol1 {
+                                            .blogDetailMiddleColTop {
+                                                margin: 0 auto 20px;
+                                                text-align: center;
+                                                width: 65px;
+                                                height: 65px;
+                                                overflow: hidden;
+                                                border-radius: 50%;
+
+                                                img {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+                                            }
+
+                                            .blogDetailMiddleColMiddle {
+                                                margin-bottom: 15px;
+                                                text-align: center;
+
+                                                .comBox {
+                                                    text-align: center;
+                                                    border-radius: 50%;
+                                                    border: 1px solid #546181;
+                                                    width: 41px;
+                                                    height: 41px;
+                                                    display: block;
+                                                    line-height: 38px;
+                                                    margin: 0 auto 5px;
+                                                    background-color: #4934d3;
+                                                    border-color: #4934d3;
+                                                }
+
+                                                span {
+                                                    text-align: center;
+                                                    color: white;
+                                                    font-size: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .col-lg-10 {
+                                        .blogDetailMiddleCol2 {
+                                            .paraghraf {
+                                                font-size: 18px;
+                                                line-height: 30px;
+                                                font-family: "Poppins", sans-serif !important;
+                                                color: white;
+
+                                                &:not(:last-child) {
+                                                    margin-bottom: 20px;
+
+                                                }
+
+                                                &:last-child {
+                                                    margin-bottom: 0 !important;
+                                                }
+                                            }
+
+                                            .p2 {
+                                                margin-bottom: 0 !important;
+                                                font-size: 18px;
+                                                line-height: 30px;
+                                                font-family: "Poppins", sans-serif !important;
+                                                color: white;
+
+                                            }
+
+                                            .col10Image {
+                                                width: 100%;
+                                                padding: 30px 0;
+
+                                                img {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+                                            }
+
+                                            .paraghraf2 {
+                                                margin-bottom: 0;
+                                                font-size: 18px;
+                                                line-height: 30px;
+                                                font-family: "Poppins", sans-serif !important;
+                                                color: white;
+
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .blogDetailColBoxBottom {
+                                border-top: 1px solid #6d69f4;
+
+                                .blogDetailColBottomInside {
+                                    padding: 25px 25px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+
+                                    .blogDetailFootLeft {
+                                        display: flex;
+                                        align-items: center;
+                                        margin: 0;
+                                        padding: 0;
+
+                                        li {
+                                            &:not(:last-child) {
+                                                margin-right: 25px;
+                                            }
+
+                                            display: flex;
+                                            align-items: center;
+
+                                            span {
+                                                padding-left: 8px;
+
+                                                color: white;
+                                                font-size: 16px;
+                                            }
+                                        }
+                                    }
+
+                                    .blogDetailFootRight {
+                                        display: flex;
+                                        align-items: center;
+                                        margin: 0;
+                                        padding: 0;
+
+                                        li {
+                                            &:not(:last-child) {
+                                                margin-right: 8px;
+                                            }
+
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            border-radius: 50%;
+                                            border: 1px solid #546181;
+                                            width: 40px;
+                                            height: 40px;
+                                            line-height: 38px;
+                                            transition: all 0.3s;
+
+                                            a {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                color: white;
+
+                                            }
+
+                                            &:hover {
+                                                background: #4934d3;
+                                                border-color: #4934d3;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .commentBlog {
+            padding-top: 120px;
+
+            .row {
+                .col-lg-8 {
+                    .commentBlogBox {
+                        h2 {
+                            font-weight: 700;
+                            font-size: 57px;
+                            line-height: 74.1px;
+                            margin-bottom: 40px;
+                            margin-top: -13px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+
+                        .commentBlogBoxItem {
+                            &:not(:last-child) {
+                                margin-bottom: 40px;
+                            }
+
+                            overflow: hidden;
+                            background: #242471;
+                            border-radius: 15px;
+                            border: 1px solid #6d69f4;
+                            padding: 30px 25px;
+                            display: flex;
+
+                            .commentBlogBoxItemTop {
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50%;
+                                overflow: hidden;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .commentBlogBoxItemBottom {
+                                width: calc(100% - 80px);
+                                padding-left: 25px;
+
+                                .commentContentName {
+                                    margin-bottom: 20px;
+                                    position: relative;
+
+                                    .buttonBoxComments {
+                                        position: absolute;
+                                        right: 0;
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        transform: translateX(100px);
+                                        z-index: 99999999;
+                                        transition: all 0.3s;
+
+                                        .editBlogBtn {
+                                            border-radius: 10px;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                            display: inline-block;
+
+                                            color: white !important;
+                                            text-transform: capitalize;
+                                            border: 1px solid#4934d3;
+                                            transition: all 0.3s;
+                                            padding: 7px 15px 7px;
+                                            background: transparent;
+                                            position: relative;
+                                            z-index: 1;
+
+
+                                            &:hover {
+                                                background-color: #4934d3;
+                                            }
+                                        }
+
+                                        .commentDeleteBtn {
+                                            border-radius: 10px;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                            display: inline-block;
+
+                                            color: white !important;
+                                            text-transform: capitalize;
+                                            border: 1px solid#4934d3;
+                                            transition: all 0.3s;
+                                            padding: 7px 15px 7px;
+                                            background: transparent;
+                                            position: relative;
+                                            z-index: 1;
+
+                                            .testimonialFirstDelete {
+                                                span {
+                                                    color: white !important;
+                                                }
+
+                                            }
+
+                                            &:hover {
+                                                background-color: #4934d3;
+                                            }
+
+
+
+                                        }
+                                    }
+
+                                    h5 {
+                                        font-size: 24px;
+                                        line-height: 31.2px;
+                                        margin-top: -3px;
+                                        font-family: "Poppins", sans-serif !important;
+                                        color: white;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    span {
+                                        color: white;
+                                        font-size: 16px;
+                                    }
+
+                                }
+
+                                p {
+                                    line-height: 30px;
+                                    color: white;
+                                    font-family: "Poppins", sans-serif !important;
+                                    margin-bottom: 20px;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .commentInputs {
+            padding-top: 120px;
+
+            .col-lg-8 {
+                .commentInputs2 {
+                    h2 {
+                        font-weight: 700;
+                        font-size: 57px;
+                        line-height: 74.1px;
+                        margin-bottom: 40px;
+                        margin-top: -13px;
+                        font-family: "Poppins", sans-serif !important;
+                        color: white;
+                    }
+
+                    form {
+                        background: #242471;
+                        border-radius: 15px;
+                        border: 1px solid #6d69f4;
+                        padding: 30px 25px;
+
+                        .row {
+                            .col-lg-12 {
+                                label {
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    font-family: "Poppins", sans-serif !important;
+                                    margin-bottom: 8px;
+                                    color: white;
+                                }
+
+                                .textareaBox {
+                                    position: relative;
+                                    border: 1px solid #6d69f4;
+                                    width: 100%;
+                                    border-radius: 10px;
+
+                                    textarea {
+                                        width: 100%;
+                                        outline: none;
+                                        padding: 10px 10px 70px;
+                                        background-color: transparent;
+                                        border: none;
+                                        box-shadow: none;
+                                        font-weight: 400;
+                                        line-height: 1.5;
+                                        background-clip: padding-box;
+                                        display: block;
+                                        resize: vertical;
+                                        appearance: none;
+                                        border-radius: 0.25rem;
+                                        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                                        color: white;
+                                        min-height: calc(1.5em + (0.75rem + 2px));
+                                        font-size: 18px;
+                                        height: 176px;
+
+                                        &::placeholder {
+                                            color: #b0bcde;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .submitBtn {
+                                max-width: 200px;
+                                padding: 14px 15px 14px;
+                                outline: none;
+                                margin-left: 10px;
+                                border: 1px solid #4934d3;
+                                cursor: pointer;
+
+                                border-radius: 10px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                display: inline-block;
+                                color: white;
+                                text-transform: capitalize;
+                                transition: all 0.3s;
+                                background: #4934d3;
+                                position: relative;
+                                overflow: hidden;
+                                z-index: 1;
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: -2;
+                                }
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 100%;
+                                    left: 100%;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #242471;
+                                    transition: all 0.6s;
+                                    z-index: -1;
+                                }
+
+                                &:hover {
+                                    background-color: transparent;
+                                }
+
+                                &:hover::before {
+                                    bottom: 0;
+                                    left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.updateCommentForm {
+
+    .row {
+        .col-lg-8 {
+
+            .textareaBox {
+                position: relative;
+                border: 1px solid #6d69f4;
+                width: 100%;
+                border-radius: 10px;
+
+                textarea {
+                    width: 100%;
+                    outline: none;
+                    padding: 10px 10px 70px;
+                    background-color: transparent;
+                    border: none;
+                    box-shadow: none;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    background-clip: padding-box;
+                    display: block;
+                    resize: vertical;
+                    appearance: none;
+                    border-radius: 0.25rem;
+                    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                    color: white;
+                    min-height: calc(1.5em + (0.75rem + 2px));
+                    font-size: 18px;
+                    height: 120px;
+
+                    &::placeholder {
+                        color: #b0bcde;
+                    }
+                }
+            }
+        }
+
+        .submitBtn {
+            max-width: 200px;
+            padding: 14px 15px 14px;
+            outline: none;
+            border: 1px solid #4934d3;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-block;
+            color: white;
+            text-transform: capitalize;
+            transition: all 0.3s;
+            background: #4934d3;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -2;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 100%;
+                width: 100%;
+                height: 100%;
+                background-color: #242471;
+                transition: all 0.6s;
+                z-index: -1;
+            }
+
+            &:hover {
+                background-color: transparent;
+            }
+
+            &:hover::before {
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+.commentBlogBoxItem:hover .buttonBoxComments {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateX(-10px) !important;
+}
+
+.blogSecondCol23 {
+
+
+    .MuiStack-root {
+        width: 100% !important;
+
+        .MuiPagination-root {
+            width: 100% !important;
+
+
+            .MuiPagination-ul {
+                display: flex !important;
+                justify-content: center !important;
+                max-width: 500px !important;
+                margin: 30px auto 0 !important;
+                padding: 0 !important;
+
+                li {
+                    &:not(:last-child) {
+                        margin-right: 11px;
+                    }
+
+                    display: flex !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+
+                    .Mui-selected {
+
+                        background: #4934d3 !important;
+                    }
+
+                    .MuiPaginationItem-outlined {
+                        text-align: center !important;
+                        border-radius: 10px !important;
+                        font-size: 18px !important;
+                        display: flex !important;
+                        align-items: center !important;
+                        justify-content: center !important;
+                        border: 0 !important;
+                        height: 40px !important;
+                        outline: 0 !important;
+                        padding: 8px 18px 9px !important;
+                        font-weight: 500 !important;
+                        background: #242471;
+                        color: white !important;
+                        transition: all 0.4s !important;
+                        margin: 0 !important;
+                        line-height: 27px !important;
+
+                        &:hover {
+                            background: #4934d3 !important;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+.commentDeleteBtn:hover .testimonialFirstDelete {
+    display: none !important;
+    transition: 1s linear !important;
+
+}
+
+.commentDeleteBtn:hover .testimonialSecondDelete {
+    display: block;
+    transition: 1s linear;
+
+}
+
+.testimonialSecondDelete {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+
+
+    .blogDetailColBoxTop {
+        h3 {
+            font-size: 38px !important;
+            line-height: 49px !important;
+        }
+    }
+
+    .commentContentName {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .blogDetailBottomInside {
+        padding-bottom: 80px !important;
+    }
+
+    .buttonBoxComments {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        .editBlogBtn {
+            margin-top: 0 !important;
+            margin-left: 10px !important;
+        }
+    }
+
+    .commentInputs2 {
+        h2 {
+            font-size: 47px !important;
+            line-height: 64.1px !important;
+        }
+    }
+
+    .commentBlog {
+        padding-top: 80px !important;
+    }
+
+    .blogDetailColBoxTop {
+        h3 {
+            font-size: 34px !important;
+            line-height: 42px !important;
+        }
+    }
+
+    .commentInputs {
+        padding-top: 80px !important;
+    }
+
+    .commentBlogBoxTitle {
+        font-size: 47px !important;
+        line-height: 64.1px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .blogDetailBottomInside {
+        transform: translateY(0px) !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .commentInputs2 {
+        h2 {
+            margin-bottom: 30px !important;
+        }
+    }
+
+    .commentInputs {
+        padding-top: 70px !important;
+    }
+
+    .commentBlogBoxTitle {
+
+        margin-bottom: 30px !important;
+    }
+
+    .commentContentName {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .commentBlogBoxItem {
+        &:not(:last-child) {
+            margin-bottom: 30px !important;
+        }
+    }
+
+    .commentBlog {
+        padding-top: 70px !important;
+    }
+
+    .blogDetailMiddleColTop {
+        margin-bottom: 35px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .blogDetailBottomInside {
+        padding-bottom: 60px !important;
+    }
+
+    .commentInputs {
+        padding-top: 60px !important;
+    }
+
+    .commentBlog {
+        padding-top: 60px !important;
+    }
+
+    .blogDetailColBoxTop {
+        h3 {
+            font-size: 30px !important;
+            line-height: 38px !important;
+        }
+    }
+
+    .commentInputs2 {
+        h2 {
+            font-size: 37px !important;
+            line-height: 54.1px !important;
+        }
+    }
+
+    .commentBlogBoxTitle {
+        font-size: 37px !important;
+        line-height: 54.1px !important;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .commentBlogBoxItem {
+        padding: 25px 15px !important;
+        flex-wrap: wrap !important;
+        text-align: center !important;
+
+        .commentBlogBoxItemTop {
+            margin: 0 auto 20px !important;
+        }
+
+        .commentBlogBoxItemBottom {
+            width: 100% !important;
+            padding-left: 0 !important;
+        }
+    }
+
+    .buttonBoxComments {
+        display: block !important;
+        top: -85px !important;
+
+        .editBlogBtn {
+            margin-top: 10px !important;
+            margin-left: 0 !important;
+        }
+    }
+
+    .commentInputs2 {
+        h2 {
+            margin-bottom: 20px !important;
+            font-size: 30px !important;
+            line-height: 44.1px !important;
+        }
+    }
+
+    .commentBlogBoxTitle {
+        font-size: 30px !important;
+        line-height: 44.1px !important;
+        margin-bottom: 20px !important;
+    }
+
+
+
+    .commentContentName {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+
+        span {
+            text-align: center !important;
+        }
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .blogDetailColBoxTop {
+        padding: 18px 15px !important;
+    }
+
+    .blogDetailColBoxMiddle {
+        padding: 20px 15px !important;
+    }
+
+    .commentInputs2 {
+        form {
+            padding: 25px 15px !important;
+
+            .row {
+                .col-lg-12 {
+                    label {
+                        font-size: 19px !important;
+                    }
+
+                    .textareaBox {
+                        textarea {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .col10Image {
+        padding: 20px 0 !important;
+    }
+
+    .blogDetailColBottomInside {
+        display: inline !important;
+    }
+
+    .blogDetailFootLeft {
+        margin-bottom: 20px !important;
+        padding-left: 10px !important;
+    }
+
+    .blogDetailFootRight {
+        padding-left: 10px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .blogDetailColBoxTop {
+        p {
+            font-size: 16px !important;
+        }
+
+        h3 {
+            font-size: 26px !important;
+            line-height: 35px !important;
+            font-weight: 600 !important;
+        }
+    }
+
+    .commentInputs2 {
+        h2 {
+            font-size: 27px !important;
+            line-height: 36.1px !important;
+        }
+    }
+
+    .commentBlogBoxTitle {
+        font-size: 27px !important;
+        line-height: 36.1px !important;
+
+    }
+
+    .commentContentName {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+
+    .commentBlogBoxItemBottom {
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .blogDetailMiddleCol2 {
+
+        .paraghraf,
+
+        .paraghraf2 {
+            font-size: 16px !important;
+        }
+    }
+}

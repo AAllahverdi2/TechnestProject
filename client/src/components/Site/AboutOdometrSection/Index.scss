@@ -1,0 +1,98 @@
+.aboutOdometrSection {
+    background: #000036;
+    padding-bottom: 120px;
+
+    .container {
+        .row {
+            .odometrCard {
+                border: 1px solid #9276d7;
+                border-radius: 10px;
+                text-align: center;
+                padding: 45px 10px;
+                transition: all 0.6s;
+
+                &:hover {
+                    transform: translateY(10px);
+                }
+
+                .odometrCardInside {
+                    .odometrCardInsideTop {
+                        h2 {
+                            font-weight: 700 !important;
+                            font-size: 57px;
+                            line-height: 74.1px;
+                            margin-top: -13px;
+                            font-family: "Poppins", sans-serif !important;
+                            color: white;
+                        }
+                    }
+
+                    p {
+
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-bottom: 0;
+                        color: white;
+                        font-family: "Poppins", sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .aboutOdometrSection {
+        padding-bottom: 80px !important;
+    }
+
+    .odometrCardInsideTop {
+        h2 {
+            font-size: 47px !important;
+            line-height: 64.1px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .aboutOdometrSection {
+        padding-bottom: 70px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .aboutOdometrSection {
+        padding-bottom: 60px !important;
+    }
+
+    .odometrCardInsideTop {
+        h2 {
+            font-size: 37px !important;
+            line-height: 54.1px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .odometrCardInsideTop {
+        h2 {
+            font-size: 30px !important;
+            line-height: 44.1px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .odometrCardInside {
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .odometrCardInsideTop {
+        h2 {
+            font-size: 27px !important;
+            line-height: 36.1px !important;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.deleteBtnInQuestions:hover .questionFirstDelete {
+    display: none;
+    transition: 1s linear;
+
+}
+
+.deleteBtnInQuestions:hover .questionSecondDelete {
+    display: block;
+    transition: 1s linear;
+
+}
+
+.questionSecondDelete {
+    display: none;
+}

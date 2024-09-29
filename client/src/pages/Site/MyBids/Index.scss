@@ -1,0 +1,10 @@
+.dashboardBottom {
+    background: #000036;
+
+    .container {
+        .dashboardBottomInside {
+            transform: translateY(-120px);
+            margin-bottom: -120px;
+        }
+    }
+}

@@ -1,0 +1,271 @@
+.auctionCardInside {
+    border: 1px solid #35348c;
+    border-radius: 10px;
+    padding: 10px 10px 0;
+    transition: all 0.3s;
+
+    &:hover {
+        background: #000036;
+        transform: translateY(5px);
+    }
+
+    .auctionCardInsideTop {
+        border: 1px solid #9276d7;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+
+        .auctionCardInsideBtn2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+            button {
+                border-radius: 10px;
+                font-size: 18px;
+                font-weight: 500;
+                display: inline-block;
+
+                color: white;
+                text-transform: capitalize;
+                border: 1px solid#4934d3;
+                transition: all 0.3s;
+                padding: 7px 15px 7px;
+                background: transparent;
+                position: relative;
+                z-index: 1;
+
+                &:hover {
+                    background-color: #4934d3;
+                }
+
+
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .details {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #4934d3;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 30px;
+                object-fit: contain;
+                height: 100%;
+            }
+        }
+    }
+
+    .auctionCardInsideBottom {
+        h5 {
+            border-bottom: 1px dashed #4934d3;
+            margin: 25px 15px 0;
+            padding-bottom: 25px;
+
+            font-size: 24px;
+            line-height: 31.2px;
+            font-family: "Poppins", sans-serif !important;
+
+            a {
+                color: white;
+            }
+        }
+
+        .auctionCardInsideBottomInside {
+            margin: 30px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .auctionCardBottomLeft {
+                width: 50%;
+                border-right: 1px dashed #4934d3;
+
+                h6 {
+                    font-size: 18px;
+                    color: white;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+                }
+
+                .auctionCardPrice {
+                    font-size: 18px;
+                    color: #03d6f9;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+                }
+
+            }
+
+            .auctionCardBottomRight {
+                text-align: right;
+
+                h6 {
+                    font-size: 18px;
+                    color: white;
+                    margin-top: -1px;
+                    font-family: "Poppins", sans-serif !important;
+
+
+                }
+
+                .times {
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        color: #fa8fc1;
+                        font-size: 18px;
+
+                        &:not(:last-child) {
+                            margin-right: 10px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .auctionCardInsideBtn {
+            text-align: center;
+            margin-top: -35px;
+            z-index: 5555;
+            transform: translateY(35px);
+        }
+    }
+
+
+}
+
+.deleteBtnInTestimonials:hover .testimonialFirstDelete {
+    display: none;
+    transition: 1s linear;
+
+}
+
+.deleteBtnInTestimonials:hover .testimonialSecondDelete {
+    display: block;
+    transition: 1s linear;
+
+}
+
+.testimonialSecondDelete {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .auctionCardInsideBottom {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .auctionCardInside {
+        margin-bottom: 50px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .auctionCardInside {
+        margin-bottom: 60px !important;
+    }
+
+    .auctionCardInsideBottom {
+        h5 {
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .auctionCardInsideBottom {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .details {
+        width: 50px !important;
+        height: 50px !important;
+
+        img {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+
+    .auctionCardInsideBottom {
+        h5 {
+            margin: 25px 0px 0 !important;
+        }
+
+        .auctionCardInsideBottomInside {
+            margin: 30px 0px !important;
+
+            .auctionCardBottomLeft {
+                h6 {
+                    font-size: 16px !important;
+                }
+            }
+
+            .auctionCardBottomRight {
+                h6 {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .auctionCardBtn {
+        padding: 12px 25px !important;
+
+    }
+}
+
+.productPageHover {
+    margin-bottom: 55px !important;
+}
+
+.productPageHover:hover {
+    background: #101046 !important;
+}
+
+@media screen and (max-width: 420px) {
+    .auctionCardInsideBottom {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+}

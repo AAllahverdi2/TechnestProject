@@ -1,0 +1,251 @@
+.workSection {
+    padding-bottom: 120px;
+    background: #000036;
+
+    .container {
+        .workSectionTop {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            position: relative;
+
+            h2 {
+                font-weight: 700;
+                font-size: 57px;
+                line-height: 74.1px;
+                margin-top: -13px;
+                font-family: "Poppins", sans-serif !important;
+                color: white;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 35px;
+                text-align: center;
+                color: white;
+                font-family: "Poppins", sans-serif !important;
+            }
+        }
+
+        .workSectionBottom {
+            overflow: hidden;
+
+            .workSectionBottomInside {
+                .row {
+                    .col-xl-3 {
+                        .workCardInside {
+                            text-align: center;
+                            position: relative;
+                            padding: 30px 0px 0;
+                            transition: all 0.3s;
+                            margin-top: -20px;
+
+                            &:hover {
+                                box-shadow: 0px 5px 34px -28px #4934d3;
+                            }
+
+                            .workCardInsideTop {
+                                background: #3e3ec9;
+                                width: 85px;
+                                height: 85px;
+                                border-radius: 50%;
+                                margin: 0 auto 20px;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: 100px;
+                                    height: 100px;
+                                    border-radius: 50%;
+                                    inset: -8px 0px 0px -7px;
+                                    background: rgba(68, 103, 217, 0.3);
+                                }
+
+                                img {
+                                    width: 55px;
+                                    height: 55px;
+                                    object-fit: contain;
+
+                                }
+
+                                span {
+                                    display: block;
+                                    width: 40px;
+                                    height: 40px;
+                                    text-align: center;
+                                    line-height: 40px;
+                                    background: #4934d3;
+                                    border-radius: 50%;
+                                    position: absolute;
+                                    top: -2px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    left: -28px;
+                                    color: white;
+                                }
+                            }
+
+                            .workCardInsideArrow {
+                                position: absolute;
+                                left: -20%;
+                                top: 10%;
+                            }
+
+                            .workCardInsideBottom {
+                                h5 {
+                                    font-size: 24px;
+                                    line-height: 31.2px;
+                                    margin-top: -3px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    margin-bottom: 23px;
+                                    color: white;
+
+                                }
+
+                                p {
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    font-family: "Poppins", sans-serif !important;
+                                    color: white;
+                                    margin-bottom: -8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .workCardInsideBottom {
+        h5 {
+            margin-bottom: 14px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+            line-height: 1.7 !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .workCardInsideBottom {
+        h5 {
+            font-size: 22px !important;
+            line-height: 29.2px !important;
+        }
+    }
+
+    .arrow4 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .workSection {
+        padding-bottom: 80px !important;
+    }
+
+    .workSectionTop {
+        h2 {
+            font-size: 47px !important;
+        }
+    }
+
+    .arrow3 {
+        display: none !important;
+    }
+
+    .arrow4 {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .workSection {
+        padding-bottom: 70px !important;
+    }
+
+    .workCardInsideBottom {
+        h5 {
+            margin-bottom: 12px !important;
+            font-size: 19px !important;
+            line-height: 29.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .workSection {
+        padding-bottom: 60px !important;
+    }
+
+    .workCardRow {
+        --bs-gutter-x: 1rem !important;
+    }
+
+    .workCardInsideArrow {
+        display: none !important;
+    }
+
+    .workSectionTop {
+        h2 {
+            font-size: 37px !important;
+        }
+    }
+
+    .workCardInsideBottom {
+        p {
+            font-size: 15px !important;
+        }
+
+    }
+
+    .workCardInside {
+        border-radius: 10px !important;
+        border: 1px solid #9276d7 !important;
+        padding: 28px 16px 22px !important;
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .workSectionTop {
+        h2 {
+            font-size: 30px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .workCardInsideBottom {
+        h5 {
+            font-size: 20px !important;
+            line-height: 24.2px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .workSectionTop {
+        h2 {
+            font-size: 27px !important;
+        }
+    }
+
+    .workCardInsideBottom {
+        h5 {
+            font-size: 18px !important;
+            line-height: 27.2px !important;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.dashboardHero {
+    background: url('https://pixner.net/techbid/techbid/assets/img/blog/blog-banner.png') no-repeat center center;
+    background-size: cover;
+    padding: 70px 0 196px;
+
+    .container {
+        .row {
+            .col-lg-6 {
+                .dashboardHeroLeft {
+                    .dashboardLinks {
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        align-items: center;
+
+                        li {
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+
+                            color: white;
+                            font-size: 18px;
+
+                            a {
+                                color: white;
+
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dashboardHero {
+        padding: 60px 0 186px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .dashboardLinks {
+        li {
+            &:not(:last-child) {
+                margin-right: 7px !important;
+            }
+            font-size: 15px !important;
+        }
+    }
+}

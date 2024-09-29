@@ -1,0 +1,104 @@
+.upcomingAuction {
+    background-color: #000036;
+    padding: 120px 0;
+overflow: hidden;
+    .container {
+        .upcomingAuctionTop {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 40px;
+
+            h2 {
+                font-weight: 700;
+                font-size: 57px;
+                line-height: 74.1px;
+                margin-top: -13px;
+                font-family: "Poppins", sans-serif !important;
+                color: white;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 35px;
+                text-align: center;
+                color: white;
+                line-height: 30px;
+                font-family: "Poppins", sans-serif !important;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .upcomingAuction {
+        padding: 80px 0 !important;
+
+        .container {
+            .upcomingAuctionTop {
+                h2 {
+                    font-size: 47px !important;
+                    line-height: 64.1px !important;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .upcomingAuction {
+        padding: 70px 0 !important;
+
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .upcomingAuction {
+        padding: 60px 0 !important;
+
+        .container {
+            .upcomingAuctionTop {
+                h2 {
+                    font-size: 37px !important;
+                    line-height: 54.1px !important;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .upcomingAuction {
+
+        .container {
+            .upcomingAuctionTop {
+                h2 {
+                    font-size: 30px !important;
+                    line-height: 44.1px !important;
+                }
+
+                p {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .upcomingAuction {
+
+        .container {
+            .upcomingAuctionTop {
+                h2 {
+                    font-size: 27px !important;
+                    line-height: 36.1px !important;
+                }
+
+            }
+        }
+    }
+}

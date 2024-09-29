@@ -1,0 +1,199 @@
+.winningBidsRight {
+    .winningBidsRightInside {
+        .winningBidsRightInsideTop {
+            background: #242471;
+            padding: 30px 30px 35px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+
+            .winningBidsRightTitle {
+                border-bottom: 1px solid #7777bf;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                font-size: 24px;
+                line-height: 31.2px;
+                margin-top: -3px;
+                font-family: "Poppins", sans-serif !important;
+                color: white;
+
+            }
+
+            .winningBidsRightFilter {
+                padding: 0;
+                border: unset;
+                margin-bottom: 0;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #242471;
+
+                .winningBidsRightFilterLeft {
+                    form {
+                        position: relative;
+
+                        input {
+                            outline: none;
+                            background-color: transparent;
+                            padding: 8px 35px 8px 8px;
+                            border-radius: 5px;
+                            border: 1px solid #6d69f4;
+                            width: 100%;
+                            color: white;
+
+                            &::placeholder {
+                                color: #b0bcde;
+                            }
+                        }
+
+                        .searchIconWinBd {
+                            position: absolute;
+                            right: 10px;
+                            top: 45%;
+                            transform: translateY(-50%);
+
+                            svg {
+                                font-size: 17px;
+                                color: #b0bcde;
+                            }
+                        }
+                    }
+                }
+
+                .winningBidsRightFilterRight {
+                    display: flex;
+                    align-items: center;
+
+                    .winBidFilter {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            margin-bottom: 0;
+                            color: white;
+                            margin-right: 15px;
+                            font-size: 18px;
+                            line-height: 30px;
+                            font-family: "Poppins", sans-serif !important;
+                        }
+
+                        .form-select {
+                            width: 120px;
+                            padding: 8px 35px 8px 15px;
+                            background-color: transparent;
+                            color: white;
+                            border: 1px solid #6d69f4;
+                            outline: none;
+                            box-shadow: none;
+                            font-size: 18px;
+                            --bs-form-select-bg-img: url('../../../assets/pngwing.png');
+                            background-size: 16px 12px;
+
+                            option,optgroup {
+                                background: #101046;
+                                padding: 0px 10px !important;
+                                border-radius: 0;
+                                font-size: 18px;
+                                border: 1px solid #121254;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .row {
+            .winningBidsColBox {
+                .auctionCardInside {
+                    margin-bottom: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .winningBidsRightTitle {
+        font-size: 22px !important;
+        line-height: 29.2px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .winningBidsRight {
+        margin-top: 35px !important;
+    }
+
+    .winningBidsRightFilterRight {
+        margin-right: 15px !important;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .winningBidsRightTitle {
+        font-size: 19px !important;
+        line-height: 29.2px !important;
+    }
+
+    .winningBidsRightFilterRight {
+        margin-top: 20px !important;
+        margin-right: 0px !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .winningBidsRightFilter {
+        flex-wrap: wrap !important;
+    }
+
+    .winningBidsRightFilterLeft {
+        width: 100% !important;
+        margin-top: 12px !important;
+
+        form {
+            input {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .winningBidsRightTitle {
+        font-size: 20px !important;
+        line-height: 24.2px !important;
+    }
+
+    .form-select {
+        font-size: 16px !important;
+
+        option,optgroup {
+            font-size: 16px !important;
+
+        }
+    }
+
+    .winningBidsRightFilterRight {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .winningBidsRightTitle {
+        font-size: 18px !important;
+        line-height: 27.2px !important;
+    }
+
+    .winBidFilter {
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+
+}

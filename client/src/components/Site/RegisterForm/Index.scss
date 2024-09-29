@@ -1,0 +1,307 @@
+.registerForm {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 24, 81, 0.9);
+    overflow-y: auto;
+    z-index: 999999;
+    opacity: 0;
+    visibility: hidden;
+
+    .registerFormBox {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin: 4em auto;
+        overflow-y: auto;
+        background: #101046;
+        transition-duration: 0.3s;
+        padding: 30px 30px;
+        border: 1px solid #6d69f4;
+        border-radius: 10px;
+
+        .closeBtn {
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 22px;
+
+            svg {
+                color: white;
+            }
+        }
+
+        .registerFormBoxInside {
+            .registerFormBoxInsideTop {
+                text-align: center;
+                margin-bottom: 45px;
+
+                h4 {
+                    font-size: 32px;
+                    line-height: 55.2px;
+                    margin-top: -15px;
+                    color: white;
+                    font-family: "Poppins", sans-serif !important;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: white;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-family: "Poppins", sans-serif !important;
+                }
+            }
+
+            .registerFormBoxInsideBottom {
+                .registerFormItem {
+                    &:not(:last-child) {
+                        margin-bottom: 25px;
+                    }
+
+                    .registerFormText {
+                        font-size: 16px;
+                        font-family: "Poppins", sans-serif !important;
+                        line-height: 30px;
+
+                        span {
+                            cursor: pointer;
+                            color: #03d6f9;
+                        }
+                    }
+
+                    .registerSignUp {
+                        padding: 12px 15px;
+                        text-align: center;
+                        width: 100%;
+                        border: 1px solid #4934d3;
+
+
+                        border-radius: 10px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        display: inline-block;
+                        color: white;
+                        text-transform: capitalize;
+                        transition: all 0.3s;
+                        background: #4934d3;
+                        position: relative;
+                        overflow: hidden;
+                        z-index: 1;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: transparent;
+                            border: 1px solid #6d69f4;
+                        }
+
+                        &:hover::before {
+                            bottom: 0;
+                            left: 0;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -2;
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            bottom: 100%;
+                            left: 100%;
+                            width: 100%;
+                            height: 100%;
+                            background-color: #242471;
+                            transition: all 0.6s;
+                            z-index: -1;
+                        }
+                    }
+
+                    .registerFormItemInside {
+                        position: relative;
+                        width: 100%;
+
+
+                        .registerFormContainer {
+                            position: relative;
+
+                            .eyeBox {
+                                position: absolute;
+                                right: 15px;
+                                color: #b0bcde;
+                                text-align: center;
+                                width: 1.25em;
+                                top: 46%;
+                                cursor: pointer;
+                                font-size: 17px;
+                                transform: translateY(-50%);
+                            }
+
+                            input,
+                            select {
+                                box-shadow: none;
+                                outline: none;
+                                background: transparent;
+                                border: 1px solid #6d69f4;
+                                color: #b0bcde;
+                                padding: 14px 55px 14px 14px;
+                                font-size: 1rem;
+                                font-weight: 400;
+                                line-height: 1.5;
+                                display: block;
+                                width: 100%;
+                                appearance: none;
+                                border-radius: 0.25rem;
+                                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+                                &::placeholder {
+                                    color: #b0bcde;
+                                }
+                            }
+                        }
+
+                        .registerFileInput {
+                            position: relative;
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: stretch;
+                            width: 100%;
+
+                            span {
+                                color: #4b5564;
+                                width: auto;
+                                border: none;
+                                margin-left: -1px;
+                                display: flex;
+
+                                button {
+                                    border-top-left-radius: 0;
+                                    border-bottom-left-radius: 0;
+                                    cursor: pointer;
+                                    position: relative;
+                                }
+                            }
+
+                            input {
+                                border-top-right-radius: 0;
+                                border-bottom-right-radius: 0;
+                                position: relative;
+                                flex: 1 1 auto;
+                                width: 1%;
+                                min-width: 0;
+
+
+                            }
+                        }
+
+
+                        label {
+                            font-size: 18px;
+                            font-weight: 600;
+                            font-family: "Poppins", sans-serif;
+                            margin-bottom: 0.5rem;
+                            color: white;
+                        }
+
+                        input,
+                        select {
+                            position: relative;
+                            outline: none;
+                            background: transparent;
+                            color: white;
+                            border-radius: 5px;
+                            border: 1px solid #6d69f4;
+                            width: 100%;
+                            font-size: 16px;
+                            font-weight: 500;
+                            padding: 14px 20px;
+
+                            option {
+
+                                background-color: #101046;
+                            }
+
+                            &::placeholder {
+                                color: #b0bcde;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.openRegisterForm {
+    opacity: 1 !important;
+    visibility: visible !important;
+
+}
+
+@media screen and (max-width: 991px) {
+    .registerFormBoxInsideTop {
+        h4 {
+            font-size: 29px !important;
+            line-height: 50.2px !important;
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .registerFormBoxInsideTop {
+        h4 {
+            font-size: 26px !important;
+            line-height: 42.2px !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .registerFormBoxInsideTop {
+        h4 {
+            font-size: 22px !important;
+            line-height: 38.2px !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .registerFormBox {
+        padding: 25px 15px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .closeBtn {
+        font-size: 19px !important;
+    }
+
+    .registerFormBoxInsideTop {
+        h4 {
+            font-size: 19px !important;
+            line-height: 30.2px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+}
